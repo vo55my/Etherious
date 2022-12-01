@@ -1,0 +1,62 @@
+@font-face {
+  font-family: exoplanetaria;
+  src: url(Exoplanetaria.ttf);
+}
+
+body,
+.dropdown-menu {
+  font-family: 'exoplanetaria';
+  background-color: #202040;
+}
+
+/* Navbar */
+nav {
+  background-color: #543864;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.offcanvas-title,
+.dropdown-item,
+.nav-link,
+.nav-link:hover,
+.nav-item {
+  color: #FF6363;
+}
+
+.navbar-toggler {
+  background-color: #FF6363;
+  color: #543864;
+}
+
+.cari,
+.cari:hover {
+  background-color: #202040;
+  color: #FF6363;
+}
+
+.btn-cari,
+.btn-cari:hover {
+  color: #FF6363;
+}
+
+@font-face {
+  font-family: tsuki;
+  src: url(NineTsukiRegular.ttf);
+}
+
+.navbar-brand, .brand{
+  font-family: 'tsuki';
+  font-size: xx-large;
+}
+/* Navbar End */
+
+/* Hero */
+
+/* Hero End */
+
+/* Product */
+.card {
+  background-color: #FFBD69;
+  color: #202040;
+}
