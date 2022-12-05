@@ -13,8 +13,8 @@
     {{-- Boostrap Icons --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
-    {{-- Style CSS --}}
-    <link rel="stylesheet" href="/css/style.css">
+    {{-- Style CSS
+    <link rel="stylesheet" href="/css/style.css"> --}}
 
 </head>
   <body>
