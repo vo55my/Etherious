@@ -20,6 +20,7 @@ nav {
 .dropdown-item,
 .nav-link,
 .nav-link:hover,
+.nav-link:visited,
 .nav-item {
   color: #FF6363;
 }

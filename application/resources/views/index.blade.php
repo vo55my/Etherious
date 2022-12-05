@@ -8,6 +8,40 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Halaman Utama | Shinakamana</title>
+  <style>
+    .carousel-caption,
+    .genre {
+      color: #FFBD69;
+    }
+
+    .nav-link {
+      color: #FF6363;
+    }
+
+    .hero,
+    .hero:hover {
+      background-color: #543864;
+      color: #FFBD69;
+    }
+
+    .h5,
+    .h5:hover {
+      color: #202040;
+    }
+
+    .offcanvas-header {
+      background-color: #202040;
+    }
+
+    .offcanvas-body {
+      background-color: #543864;
+    }
+
+    .scroll-up,
+    .scroll-up:hover {
+      color: #FF6363;
+    }
+  </style>
 </head>
 <body>
   {{-- Navbar --}}
@@ -47,7 +81,7 @@
                 <a class="nav-link active" style="color : #FF6363" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" style="color : #FF6363" href="#">Login</a>
+                <a class="nav-link active" style="color : #FF6363" href="/login">Login</a>
               </li>
             </ul>
             <form class="d-flex mt-3 mt-lg-0" role="search">
@@ -69,33 +103,36 @@
       </div>
       <div class="container mt-4 mb-4">
         <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/img/hero/hero-1.jpg" alt="">
+        <div class="carousel-item active text-center">
+          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
+              <a href="" class="text-decoration-none"><p class="genre">Genre Anime</p></a>
               <h1>Judul Anime</h1>
               <p>Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg hero" href="#" style="background-color: #543864; color: #FFBD69">Tonton Sekarang</a></p>
+              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="/img/hero/hero-1.jpg" alt="">
+        <div class="carousel-item text-center">
+          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption">
+              <a href="" class="text-decoration-none"><p class="genre">Genre Anime</p></a>
               <h1>Judul Anime</h1>
               <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg" href="#" style="background-color: #543864; color: #FFBD69">Tonton Sekarang</a></p>
+              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="/img/hero/hero-1.jpg" alt="">
+        <div class="carousel-item text-center">
+          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-end">
+              <a href="#" class="text-decoration-none"><p class="genre">Genre Anime</p></a>
               <h1>Judul Anime</h1>
               <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg" href="#" style="background-color: #543864; color: #FFBD69">Tonton Sekarang</a></p>
+              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
             </div>
           </div>
         </div>
@@ -117,122 +154,86 @@
     <div class="container">
       <a href="#" class="text-decoration-none text-danger"><h3 class="mb-2">Anime Fall 2022<i class="bi bi-chevron-right"></i></h3></a>
       <div class="row">
-        <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-          <div class="card text-center w-100" style="width: 18rem;">
-          <a href="#" style="color: #202040">
+        <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+          <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
             <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Judul Anime</h5>
-          </div>
-          </a>
           <div class="card-body">
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-            </div>
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
+            <a href="#" class="card-title text-decoration-none h5">Judul Anime</a>
+            <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
+              <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
+              <div class="fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
+              <div class="fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
+              <div class="fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
             </div>
           </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-          <div class="card text-center w-100" style="width: 18rem;">
-          <a href="#" style="color: #202040">
+        <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+          <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
             <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Judul Anime</h5>
-          </div>
-          </a>
           <div class="card-body">
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-            </div>
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
+            <a href="#" class="card-title text-decoration-none h5">Judul Anime</a>
+            <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
+              <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
+              <div class="fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
+              <div class="fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
+              <div class="fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
             </div>
           </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-          <div class="card text-center w-100" style="width: 18rem;">
-          <a href="#" style="color: #202040">
+        <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+          <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
             <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Judul Anime</h5>
-          </div>
-          </a>
           <div class="card-body">
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-            </div>
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
+            <a href="#" class="card-title text-decoration-none h5">Judul Anime</a>
+            <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
+              <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
+              <div class="fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
+              <div class="fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
+              <div class="fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
             </div>
           </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-          <div class="card text-center w-100" style="width: 18rem;">
-          <a href="#" style="color: #202040">
+        <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+          <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
             <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Judul Anime</h5>
-          </div>
-          </a>
           <div class="card-body">
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-            </div>
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
+            <a href="#" class="card-title text-decoration-none h5">Judul Anime</a>
+            <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
+              <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
+              <div class="fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
+              <div class="fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
+              <div class="fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
             </div>
           </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-          <div class="card text-center w-100" style="width: 18rem;">
-          <a href="#" style="color: #202040">
+        <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+          <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
             <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Judul Anime</h5>
-          </div>
-          </a>
           <div class="card-body">
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-            </div>
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
+            <a href="#" class="card-title text-decoration-none h5">Judul Anime</a>
+            <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
+              <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
+              <div class="fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
+              <div class="fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
+              <div class="fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
             </div>
           </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-          <div class="card text-center w-100" style="width: 18rem;">
-          <a href="#" style="color: #202040">
+        <div class="col-lg-2 col-md-4 col-sm-6 my-2">
+          <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
             <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Judul Anime</h5>
-          </div>
-          </a>
           <div class="card-body">
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-            </div>
-            <div class="row">
-              <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-              <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
+            <a href="#" class="card-title text-decoration-none h5">Judul Anime</a>
+            <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
+              <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
+              <div class="fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
+              <div class="fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
+              <div class="fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
             </div>
           </div>
         </div>
@@ -244,262 +245,21 @@
   {{-- Product 2 --}}
   <div class="container my-3">
     <a href="#" class="text-decoration-none text-danger"><h3 class="mb-2">Anime Sedang Tayang<i class="bi bi-chevron-right"></i></h3></a>
-    <div class="row">
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
   </div>
   {{-- Product 2 End --}}
 
   {{-- Product 3 --}}
   <div class="container">
     <a href="#" class="text-decoration-none text-danger"><h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3></a>
-    <div class="row">
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-12 my-2">
-        <div class="card text-center w-100" style="width: 18rem;">
-        <a href="#" style="color: #202040">
-          <img src="/img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Judul Anime</h5>
-        </div>
-        </a>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-camera-video-fill"></i><p>TV</p></div>
-          </div>
-          <div class="row">
-            <div class="col-6 fs-5"><i class="bi bi-star-fill"></i><p>8.84</p></div>
-            <div class="col-6 fs-5"><i class="bi bi-collection-fill"></i><p>12 Eps</p></div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
   </div>
   {{-- Product 3 End --}}
 
     {{-- Footer --}}
     <div class="container">
       <footer class="py-3 my-4">
+        <div class="grid text-center">
+          <a href="/" class="scroll-up display-4 my-5"><i class="bi bi-arrow-up-circle-fill"></i></a>
+        </div>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Musim Anime</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Jadwal Anime</a></li>
