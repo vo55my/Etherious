@@ -1,4 +1,4 @@
-@extends(layout.main)
+{{-- @extends(layout.main) --}}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,12 +12,12 @@
 </head>
 <body class="text-center">
   <main class="form-signin w-100 m-auto">
-    <form method="post">
       <h2 class="mb-3">Shinakamana</h2>
       <h3 class="h3 mb-3 fw-normal text-center">Login</h3>
-
+        <form method="post" action="/login">
+            @csrf
       <div class="form-floating">
-        <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username">
+        <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username" autocomplete="off">
         <label for="username">User Name</label>
       </div>
       <div class="form-floating">
@@ -30,7 +30,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <button class="w-100 btn btn-lg" type="submit">Login</button>
+      <button class="w-100 btn btn-lg" type="submit"><a href="/dashboard"></a> Login</button>
       <p class="mt-3">Not Registered? <a href="/register" class="text-decoration-none">Register Now!</a></p>
     </form>
   </main>
