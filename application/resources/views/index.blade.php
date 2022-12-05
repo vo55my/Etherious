@@ -47,7 +47,7 @@
                 <a class="nav-link active" style="color : #FF6363" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" style="color : #FF6363" href="#">Login</a>
+                <a class="nav-link active" style="color : #FF6363" href="/login">Login</a>
               </li>
             </ul>
             <form class="d-flex mt-3 mt-lg-0" role="search">
