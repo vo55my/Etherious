@@ -1,3 +1,5 @@
+@extends(layout.main)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,23 +15,23 @@
     <form method="post">
       <h2 class="mb-3">Shinakamana</h2>
       <h3 class="h3 mb-3 fw-normal text-center">Login</h3>
-  
+
       <div class="form-floating">
-        <input type="email" name="email" class="form-control border-0" id="email" placeholder="name@example.com">
-        <label for="email">Email address</label>
+        <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username">
+        <label for="username">User Name</label>
       </div>
       <div class="form-floating">
         <input type="password" class="form-control border-0" id="password" placeholder="Password">
         <label for="password">Password</label>
       </div>
-  
+
       <div class="checkbox mb-3">
         <label class="remember">
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
       <button class="w-100 btn btn-lg" type="submit">Login</button>
-      <p class="mt-3">Not Registered? <a href="#" class="text-decoration-none">Register Now!</a></p>
+      <p class="mt-3">Not Registered? <a href="/register" class="text-decoration-none">Register Now!</a></p>
     </form>
   </main>
 </body>
