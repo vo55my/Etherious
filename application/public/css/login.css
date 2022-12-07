@@ -1,5 +1,11 @@
+@font-face {
+  font-family: exoplanetaria;
+  src: url(Exoplanetaria.ttf);
+}
+
 html,
 body {
+  font-family: 'exoplanetaria';
   height: 100%;
 }
 
@@ -9,6 +15,15 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #202040;
+}
+
+@font-face {
+  font-family: tsuki;
+  src: url(NineTsukiRegular.ttf);
+}
+
+h2 {
+  font-family: 'tsuki';
 }
 
 .bd-placeholder-img {
