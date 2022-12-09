@@ -18,12 +18,22 @@
         <form method="post" action="/login">
             @csrf
       <div class="form-floating">
-        <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username" autocomplete="off">
-        <label for="username">User Name</label>
+        <input type="email" name="email" class="form-control border-0" id="email" placeholder="email">
+        <label for="email">Email</label>
+        {{-- @error('email')
+          <div class="invalid-feedback">
+            {{ message }}
+          </div>
+        @enderror --}}
       </div>
       <div class="form-floating">
         <input type="password" class="form-control border-0" id="password" placeholder="Password">
         <label for="password">Password</label>
+        {{-- @error('password')
+          <div class="invalid-feedback">
+            {{ message }}
+          </div>
+        @enderror --}}
       </div>
 
       <div class="checkbox mb-3">
@@ -31,7 +41,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <button class="w-100 btn btn-lg" type="submit"><a href="/dashboard"></a> Login</button>
+      <button class="w-100 btn btn-lg" type="submit"><a href="/register"></a> Login</button>
       <p class="mt-3">Not Registered? <a href="/register" class="text-decoration-none">Register Now!</a></p>
     </form>
   </main>
