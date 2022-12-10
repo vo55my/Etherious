@@ -105,7 +105,7 @@
       <div class="container mt-4 mb-4">
         <div class="carousel-inner">
         <div class="carousel-item active text-center">
-          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/hero-1.jpg" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
               <a href="" class="text-decoration-none"><p class="genre">Genre Anime</p></a>
@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/hero-1.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <a href="" class="text-decoration-none"><p class="genre">Genre Anime</p></a>
@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/hero-1.jpg" alt="">
           <div class="container">
             <div class="carousel-caption text-end">
               <a href="#" class="text-decoration-none"><p class="genre">Genre Anime</p></a>
