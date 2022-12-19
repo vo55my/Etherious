@@ -64,7 +64,7 @@
                   Top Anime
                 </a>
                 <ul class="dropdown-menu border-0">
-                  <li><a class="dropdown-item" href="#">Anime On Going</a></li>
+                  <li><a class="dropdown-item" href="/animeongoing">Anime On Going</a></li>
                   <li><a class="dropdown-item" href="#">Anime Terpopuler</a></li>
                   <li><a class="dropdown-item" href="#">Anime Terbaik</a></li>
                 </ul>
@@ -456,7 +456,7 @@
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Jadwal Anime</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Genre Anime</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Login</a></li>
+          <li class="nav-item"><a href="/login" class="nav-link px-2 text-muted">Login</a></li>
         </ul>
         <a href="/" class="text-decoration-none"><p class="text-center text-muted brand">Shinakamana</p></a>
       </footer>
