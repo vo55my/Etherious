@@ -41,7 +41,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <button class="w-100 btn btn-lg" type="submit"><a href="/register"></a> Login</button>
+      <button class="w-100 btn btn-lg" type="submit"><a href="/home"></a> Login</button>
       <p class="mt-3">Not Registered? <a href="/register" class="text-decoration-none">Register Now!</a></p>
     </form>
   </main>
