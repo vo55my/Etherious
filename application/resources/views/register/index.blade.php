@@ -21,7 +21,7 @@
         <label for="name">Name</label>
         @error('name')
           <div class="invalid-feedback">
-            {{ message }}
+            {{ $message }}
           </div>
         @enderror
       </div>
@@ -30,7 +30,7 @@
         <label for="username">Username</label>
         @error('username')
           <div class="invalid-feedback">
-            {{ message }}
+            {{ $message }}
           </div>
         @enderror
       </div>
@@ -39,7 +39,7 @@
         <label for="email">Email address</label>
         @error('email')
           <div class="invalid-feedback">
-            {{ message }}
+            {{ $message }}
           </div>
         @enderror
       </div>
@@ -51,6 +51,7 @@
       <div class="checkbox mb-3">
       </div>
       <button class="w-100 btn btn-lg" type="submit">Register</button>
+      <p class="d-block text-center mt-3">Already registered? <a href="/login">login</a></p>
     </form>
   </main>
 </body>
