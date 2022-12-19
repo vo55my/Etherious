@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
-// use App\Http\Models\Hash;
+use Illuminate\Support\Facades\Hash;
 
 
 class RegisterController extends Controller
@@ -27,7 +27,7 @@ class RegisterController extends Controller
         ]);
 
         // $validatedData['password'] = bcrypt($validatedData['password']);
-        // $validatedData['password'] = Hash::make($validatedData['password']);
+        $validatedData['password'] = Hash::make($validatedData['password']);
 
         User::create($validatedData);
 
