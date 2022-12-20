@@ -38,6 +38,17 @@
               <a class="nav-link text-decoration-none" href="#" id="menu">Reviews</a>
             </li>
           </ul>
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 text-muted text-uppercase">
+            <span class="activity">Menu</span>
+          </h6>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#" id="menu">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#" id="menu">Logout</a>
+            </li>
+          </ul>
         </div>
       </nav>
   
