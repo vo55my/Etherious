@@ -3,26 +3,66 @@
   src: url(Exoplanetaria.ttf);
 }
 
+@font-face {
+  font-family: tsuki;
+  src: url(NineTsukiRegular.ttf);
+}
+
 body,
 .dropdown-menu {
   font-family: 'exoplanetaria';
   background-color: #202040;
 }
 
-/* Navbar */
-.navbar {
+.navbar,
+.offcanvas-body {
   background-color: #543864;
 }
 
-.navbar-brand,
-.navbar-brand:hover,
 .offcanvas-title,
 .dropdown-item,
 .nav-link,
 .nav-link:hover,
-.nav-link:visited,
-.nav-item {
+.nav-item,
+.btn-cari,
+.btn-cari:hover,
+.header,
+.scroll-up,
+.judul,
+#item {
   color: #FF6363;
+}
+
+.isi,
+.isi-link,
+.dropdown-item:hover,
+.carousel-caption,
+.genre,
+#item:hover,
+.dropdown-toggle:hover,
+.navbar-brand:hover,
+.scroll-up:hover,
+#deskripsi,
+#page:hover {
+  color: #FFBD69;
+}
+
+.info,
+.page-link:hover,
+.anime,
+#review,
+.activity,
+#menu:hover {
+  color: #202040;
+}
+
+.anime:hover,
+.info:hover,
+.isi-link:hover,
+#review:hover,
+.user,
+#menu {
+  color: #543864;
 }
 
 .navbar-toggler {
@@ -36,37 +76,40 @@ body,
   color: #FF6363;
 }
 
-.btn-cari,
-.btn-cari:hover {
+.navbar-brand {
+  font-family: 'tsuki';
+  font-size: xx-large;
   color: #FF6363;
 }
 
-@font-face {
-  font-family: tsuki;
-  src: url(NineTsukiRegular.ttf);
-}
-
-.navbar-brand, .brand{
-  font-family: 'tsuki';
-  font-size: xx-large;
-}
-/* Navbar End */
-
-/* Hero */
-
-/* Hero End */
-
-/* Product */
 .card {
   background-color: #FFBD69;
   color: #202040;
 }
 
-.page-link {
+.page-link,
+.hero:hover {
   background-color: #543864;
   color: #FF6363;
 }
 
-.page-link:hover {
-  color: #202040;
+.hero {
+  background-color: #543864;
+  color: #FFBD69;
+}
+
+.offcanvas-header {
+  background-color: #202040;
+}
+
+#head {
+  padding-right: 20px;
+}
+
+#title {
+  padding-left: 25px;
+}
+
+#sidebarMenu {
+  background-color: #FFBD69;
 }
