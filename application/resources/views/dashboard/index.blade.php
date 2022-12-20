@@ -54,8 +54,11 @@
                 <a class="nav-link active" id="item" href="#">Genre Anime</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" id="item" href="#">Logout</a>
-              </li>
+                <form action="/logout" method="post">
+                    @csrf
+                    <button class="nav-link active border-0" type="submit" id="item">Logout</button>
+                </form>
+               </li>
             </ul>
             <form class="d-flex mt-3 mt-lg-0" role="search">
               <input class="cari form-control me-2 border-0" type="search" placeholder="Search" id="search-input">
