@@ -27,17 +27,17 @@
       <h2 class="mb-3 display-4">Shinakamana</h2>
       <h3 class="h3 mb-3 fw-normal text-center">Login</h3>
 
-      <form action="{{ route('authenticate') }}" method="post">
-      @csrf
+      <form action="/login" method="post">
+        @csrf
       <div class="form-floating">
         <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username">
         <label for="username">Username</label>
-        {{-- @error('email')
+         {{-- @error('email')
         @error('email')
           <div class="invalid-feedback">
             {{ $message }}
           </div>
-        @enderror
+        @enderror --}}
       </div>
 
       <div class="form-floating">

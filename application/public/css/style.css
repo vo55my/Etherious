@@ -65,6 +65,10 @@ body,
   color: #543864;
 }
 
+#item {
+    background-color: #543864;
+}
+
 .navbar-toggler {
   background-color: #FF6363;
   color: #543864;

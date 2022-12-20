@@ -15,7 +15,6 @@ use App\Http\Controllers\RegisterController;
 |
 */
 
-
 Route::get('/', function () {
     return view('index');
 });
@@ -28,9 +27,9 @@ Route::get('/dashboard', function(){
 })->middleware('auth');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
-Route::post('/login', [LoginController::class, 'authenticate'])->name('authenticate');
+Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
-Route::get('/', function(){
+Route::get('/', function() {
     return view('index');
 });
