@@ -1,5 +1,3 @@
-{{-- @extends(layout.main) --}}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="css/login.css">
-  <link rel="shortcut icon" href="img/favicon.png" type="image">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <title>Login | Shinakamana</title>
 </head>
 <body class="text-center">
@@ -18,8 +16,8 @@
         <form method="post" action="/login">
             @csrf
       <div class="form-floating">
-        <input type="email" name="email" class="form-control border-0" id="email" placeholder="email">
-        <label for="email">Email</label>
+        <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username">
+        <label for="username">Username</label>
         {{-- @error('email')
           <div class="invalid-feedback">
             {{ message }}
@@ -36,13 +34,8 @@
         @enderror --}}
       </div>
 
-      <div class="checkbox mb-3">
-        <label class="remember">
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-      </div>
-      <button class="w-100 btn btn-lg" type="submit"><a href="/register"></a> Login</button>
-      <p class="mt-3">Not Registered? <a href="/register" class="text-decoration-none">Register Now!</a></p>
+      <button class="w-100 btn btn-lg" type="submit"><a href="/register"></a>Login</button>
+      <p class="mt-3">Not Registered? <a href="/register" class="text-decoration-none" id="register">Register Now!</a></p>
     </form>
   </main>
 </body>
