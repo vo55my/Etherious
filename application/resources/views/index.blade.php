@@ -30,7 +30,7 @@
                   Top Anime
                 </a>
                 <ul class="dropdown-menu border-0">
-                  <li><a class="dropdown-item" href="#">Anime On Going</a></li>
+                  <li><a class="dropdown-item" href="/animeongoing">Anime On Going</a></li>
                   <li><a class="dropdown-item" href="#">Anime Terpopuler</a></li>
                   <li><a class="dropdown-item" href="#">Anime Terbaik</a></li>
                 </ul>

@@ -11,27 +11,38 @@
 </head>
 <body class="text-center">
   <main class="form-signin w-100 m-auto">
+    @if(session()->has('success'))
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        {{ session('success') }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
+
+    @if(session()->has('loginError'))
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        {{ session('loginError') }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
       <h2 class="mb-3 display-4">Shinakamana</h2>
       <h3 class="h3 mb-3 fw-normal text-center">Login</h3>
-        <form method="post" action="/login">
-            @csrf
+
+      <form action="{{ route('authenticate') }}" method="post">
+      @csrf
       <div class="form-floating">
         <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username">
         <label for="username">Username</label>
         {{-- @error('email')
+        @error('email')
           <div class="invalid-feedback">
-            {{ message }}
+            {{ $message }}
           </div>
-        @enderror --}}
+        @enderror
       </div>
+
       <div class="form-floating">
-        <input type="password" class="form-control border-0" id="password" placeholder="Password">
+        <input type="password" name="password" class="form-control border-0" id="password" placeholder="password" required>
         <label for="password">Password</label>
-        {{-- @error('password')
-          <div class="invalid-feedback">
-            {{ message }}
-          </div>
-        @enderror --}}
       </div>
 
       <button class="w-100 btn btn-lg" type="submit"><a href="/register"></a>Login</button>

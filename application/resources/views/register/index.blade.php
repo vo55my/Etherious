@@ -21,7 +21,7 @@
         <label for="username">Username</label>
         @error('username')
           <div class="invalid-feedback">
-            {{ message }}
+            {{ $message }}
           </div>
         @enderror
       </div>
@@ -30,18 +30,13 @@
         <label for="email">Email address</label>
         @error('email')
           <div class="invalid-feedback">
-            {{ message }}
+            {{ $message }}
           </div>
         @enderror
       </div>
       <div class="form-floating">
-        <input type="password" name="password" class="form-control border-0 @error('password')is-invalid @enderror" id="password" placeholder="Password" required>
+        <input type="password" name="password" class="form-control border-0" id="password" placeholder="Password" required>
         <label for="password">Password</label>
-        @error('password')
-          <div class="invalid-feedback">
-            {{ message }}
-          </div>
-        @enderror
       </div>
 
       <button class="w-100 btn btn-lg mt-2" type="submit">Register</button>
