@@ -62,7 +62,7 @@
       <div class="container">
         <h1 class="my-4 judul text-center">Anime Terbaik</h1>
         <div class="row d-grid gap-3">
-            <div class="card">
+            <div class="card border-0">
               <div class="card-body">
                 <div class="row align-items-center d-flex justify-content-center">
                   <div class="col-lg-1 col-md-2 col-sm-12 text-center">
@@ -89,7 +89,7 @@
                 </div>
               </div>
             </div>
-            <div class="card">
+            <div class="card border-0">
               <div class="card-body">
                 <div class="row align-items-center d-flex justify-content-center">
                   <div class="col-lg-1 col-md-2 col-sm-12 text-center">

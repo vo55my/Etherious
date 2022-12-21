@@ -65,7 +65,7 @@
     <div class="row mx-2">
       <div class="col-lg-4 col-md-5 col-sm-12">
         <img src="img/sidebar/comment-4.jpg" width="300rem" class="rounded mb-3" alt="">
-        <div class="card" style="width: 20rem; height: 4rem;">
+        <div class="card border-0" style="width: 20rem; height: 4rem;">
           <a href="#" class="text-decoration-none">
           <div class="card-body">
             <div class="row fs-5 info">
@@ -109,7 +109,7 @@
         <p class="fs-5 judul">Tersedia di</p>
           <div class="row">
             <div class="col d-grid gap-2 fs-5">
-              <div class="card">
+              <div class="card border-0">
                 <a href="#" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
@@ -119,7 +119,7 @@
                 </div>
               </a>
               </div>
-              <div class="card">
+              <div class="card border-0">
                 <a href="#" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
@@ -129,7 +129,7 @@
                 </div>
               </a>
               </div>
-              <div class="card">
+              <div class="card border-0">
                 <a href="#" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
@@ -139,7 +139,7 @@
                 </div>
               </a>
               </div>
-              <div class="card">
+              <div class="card border-0">
                 <a href="#" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
@@ -151,7 +151,7 @@
               </div>
             </div>
             <div class="col d-grid gap-2 fs-5">
-              <div class="card">
+              <div class="card border-0">
                 <a href="" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
@@ -161,7 +161,7 @@
                 </div>
               </a>
               </div>
-              <div class="card">
+              <div class="card border-0">
                 <a href="" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
@@ -171,7 +171,7 @@
                 </div>
               </a>
               </div>
-              <div class="card">
+              <div class="card border-0">
                 <a href="" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
@@ -181,7 +181,7 @@
                 </div>
               </a>
               </div>
-              <div class="card">
+              <div class="card border-0">
                 <a href="" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
