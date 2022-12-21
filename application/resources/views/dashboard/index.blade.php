@@ -54,11 +54,8 @@
                 <a class="nav-link active" id="item" href="#">Genre Anime</a>
               </li>
               <li class="nav-item">
-                <form action="/logout" method="post">
-                    @csrf
-                    <button class="nav-link active border-0" type="submit" id="item">Logout</button>
-                </form>
-               </li>
+                <a class="nav-link active" id="item" href="#">Logout</a>
+              </li>
             </ul>
             <form class="d-flex mt-3 mt-lg-0" role="search">
               <input class="cari form-control me-2 border-0" type="search" placeholder="Search" id="search-input">
@@ -131,7 +128,7 @@
     <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Fall 2022<i class="bi bi-chevron-right"></i></h3></a>
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -148,7 +145,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -165,7 +162,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -182,7 +179,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -199,7 +196,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -216,7 +213,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -240,7 +237,7 @@
     <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Sedang Tayang<i class="bi bi-chevron-right"></i></h3></a>
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -257,7 +254,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -274,7 +271,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -291,7 +288,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -308,7 +305,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -325,7 +322,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -350,7 +347,7 @@
     <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3></a>
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -367,7 +364,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -384,7 +381,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -401,7 +398,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -418,7 +415,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -435,7 +432,7 @@
       </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="card text-center w-100 shadow-lg" style="width: 18rem;">
+        <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
