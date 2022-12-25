@@ -29,3 +29,23 @@ Route::get('/dashboard', function(){
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
+
+Route::get('/animeongoing', function () {
+    return view('animeongoing.index');
+});
+
+Route::get('/animeterbaik', function () {
+    return view('animeterbaik.index');
+});
+
+Route::get('/animeterpopuler', function () {
+    return view('animeterpopuler.index');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+
+
+
