@@ -81,9 +81,7 @@ h2,
 h3,
 p,
 label,
-.remember,
-.btn,
-.btn:hover {
+.remember {
   color: #FF6363;
 }
 
@@ -96,14 +94,7 @@ label,
   z-index: 2;
 }
 
-.form-signin input[name="name"] {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
 .form-signin input[name="username"] {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -124,6 +115,10 @@ a {
   color: #FFBD69;
 }
 
+#login:hover {
+  color: #FF6363;
+}
+
 .form-control,
 .form-control:hover {
   background-color: #543864;
@@ -131,7 +126,12 @@ a {
   border-color: #FFBD69;
 }
 
-.btn,
+.btn {
+  background-color: #543864;
+  color: #FF6363;
+}
+
 .btn:hover {
   background-color: #543864;
+  color: #FFBD69;
 }

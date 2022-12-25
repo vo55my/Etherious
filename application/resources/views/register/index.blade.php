@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="css/register.css">
-  <link rel="shortcut icon" href="img/favicon.png" type="image">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <title>Register | Shinakamana</title>
 </head>
 <body class="text-center">
@@ -16,15 +16,6 @@
       <h2 class="mb-3 display-4">Shinakamana</h2>
       <h3 class="h3 mb-3 fw-normal text-center">Registration Form</h3>
 
-      <div class="form-floating">
-        <input type="text" name="name" class="form-control border-0 @error('name')is-invalid @enderror" id="name" placeholder="Name" required value="{{ old('name') }}">
-        <label for="name">Name</label>
-        @error('name')
-          <div class="invalid-feedback">
-            {{ $message }}
-          </div>
-        @enderror
-      </div>
       <div class="form-floating">
         <input type="text" name="username" class="form-control border-0 @error('username')is-invalid @enderror" id="username" placeholder="Username" required value="{{ old('username') }}">
         <label for="username">Username</label>
@@ -48,10 +39,8 @@
         <label for="password">Password</label>
       </div>
 
-      <div class="checkbox mb-3">
-      </div>
-      <button class="w-100 btn btn-lg" type="submit">Register</button>
-      <p class="d-block text-center mt-3">Already registered? <a href="/login">login</a></p>
+      <button class="w-100 btn btn-lg mt-2" type="submit">Register</button>
+      <p class="mt-3">Already Registered? <a href="/login" class="text-decoration-none" id="login">Login Now!</a></p>
     </form>
   </main>
 </body>
