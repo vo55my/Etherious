@@ -73,9 +73,9 @@
                   Top Anime
                 </a>
                 <ul class="dropdown-menu border-0">
-                  <li><a class="dropdown-item" href="#">Anime On Going</a></li>
-                  <li><a class="dropdown-item" href="#">Anime Terpopuler</a></li>
-                  <li><a class="dropdown-item" href="#">Anime Terbaik</a></li>
+                  <li><a class="dropdown-item" href="/animeongoing">Anime On Going</a></li>
+                  <li><a class="dropdown-item" href="/animeterbaik">Anime Terbaik</a></li>
+                  <li><a class="dropdown-item" href="/animeterpopuler">Anime Terpopuler</a></li>
                 </ul>
               </li>
               <li class="nav-ite">
