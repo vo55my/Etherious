@@ -17,7 +17,9 @@
               <p class="genre">Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
+              <p>
+                <a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a>
+              </p>
             </div>
           </div>
         </div>
@@ -28,7 +30,9 @@
               <p class="genre">Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
+              <p>
+                <a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a>
+              </p>
             </div>
           </div>
         </div>
@@ -39,7 +43,9 @@
               <p class="genre">Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
+              <p>
+                <a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a>
+              </p>
             </div>
           </div>
         </div>
@@ -47,27 +53,29 @@
       </div>
 
       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
     {{-- Hero End --}}
 
-    {{-- Product 1 --}}
+    {{-- Musim Anime --}}
     <div class="container">
-      <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Fall 2022<i class="bi bi-chevron-right"></i></h3></a>
+      <a href="#" class="text-decoration-none" id="item">
+        <h3 class="mb-2">Anime Fall 2022<i class="bi bi-chevron-right"></i></h3>
+      </a>
       <div class="row">
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
             <a href="/detail" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 href="/detail" class="card-title">Judul Anime</h5>
-              </a>
+              <h5 class="card-title">Judul Anime</h5>
+            </a>
             <hr>
             <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
               <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -83,8 +91,8 @@
             <a href="/detail" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 href="/detail" class="card-title">Judul Anime</h5>
-              </a>
+              <h5 class="card-title">Judul Anime</h5>
+            </a>
             <hr>
             <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
               <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -100,8 +108,8 @@
             <a href="/detail" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 href="/detail" class="card-title">Judul Anime</h5>
-              </a>
+              <h5 class="card-title">Judul Anime</h5>
+            </a>
             <hr>
             <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
               <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -117,8 +125,8 @@
             <a href="#" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 href="#" class="card-title">Judul Anime</h5>
-              </a>
+              <h5 class="card-title">Judul Anime</h5>
+            </a>
             <hr>
             <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
               <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -134,8 +142,8 @@
             <a href="#" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 href="#" class="card-title">Judul Anime</h5>
-              </a>
+              <h5 class="card-title">Judul Anime</h5>
+            </a>
             <hr>
             <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
               <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -151,8 +159,8 @@
             <a href="#" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 href="#" class="card-title">Judul Anime</h5>
-              </a>
+              <h5 class="card-title">Judul Anime</h5>
+            </a>
             <hr>
             <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
               <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -165,19 +173,21 @@
         </div>
       </div>
     </div>
-  {{-- Product 1 End --}}
+  {{-- Musim Anime End --}}
 
-  {{-- Product 2 --}}
+  {{-- Anime Sedang Tayang --}}
   <div class="container my-3">
-    <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Sedang Tayang<i class="bi bi-chevron-right"></i></h3></a>
+    <a href="#" class="text-decoration-none" id="item">
+      <h3 class="mb-2">Anime Sedang Tayang<i class="bi bi-chevron-right"></i></h3>
+    </a>
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -193,8 +203,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -210,8 +220,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -227,8 +237,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -244,8 +254,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -261,8 +271,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -275,19 +285,21 @@
       </div>
     </div>
   </div>
-  {{-- Product 2 End --}}
+  {{-- Anime Sedang Tayang End --}}
 
-  {{-- Product 3 --}}
+  {{-- Anime Terpopuler --}}
   <div class="container">
-    <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3></a>
+    <a href="#" class="text-decoration-none" id="item">
+      <h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3>
+    </a>
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -303,8 +315,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -320,8 +332,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -337,8 +349,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -354,8 +366,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -371,8 +383,8 @@
           <a href="#" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 href="#" class="card-title">Judul Anime</h5>
-            </a>
+            <h5 class="card-title">Judul Anime</h5>
+          </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
             <div class="fs-5"><i class="bi bi-person-fill"></i><p>858rb</p></div>
@@ -385,5 +397,5 @@
       </div>
     </div>
   </div>
-  {{-- Product 3 End --}}
+  {{-- Anime Terpopuler End --}}
 @endsection
