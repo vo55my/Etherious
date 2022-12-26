@@ -60,10 +60,10 @@
               </a>
               </div>
               <div class="card border-0">
-                <a href="#" class="text-decoration-none">
+                <a href="https://www.bilibili.tv/id/play/1005426" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
+                    <div class="col-10"><i><img src="img/bilibili.png" width="50rem"></i> Bilibili</div>
                     <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
                   </div>
                 </div>

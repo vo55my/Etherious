@@ -122,7 +122,7 @@
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-            <a href="#" class="anime text-decoration-none">
+            <a href="/detail" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
@@ -139,7 +139,7 @@
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-            <a href="#" class="anime text-decoration-none">
+            <a href="/detail" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
@@ -156,7 +156,7 @@
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-            <a href="#" class="anime text-decoration-none">
+            <a href="/detail" class="anime text-decoration-none">
               <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
@@ -183,7 +183,7 @@
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -200,7 +200,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -217,7 +217,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -234,7 +234,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -251,7 +251,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -268,7 +268,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -295,7 +295,7 @@
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -312,7 +312,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -329,7 +329,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -346,7 +346,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -363,7 +363,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
@@ -380,7 +380,7 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
             <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>

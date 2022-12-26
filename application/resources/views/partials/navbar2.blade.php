@@ -12,7 +12,7 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Dashboard</a>
+            <a class="nav-link active" id="item" href="/dashboard">Dashboard</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -25,10 +25,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Musim Anime</a>
+            <a class="nav-link active" id="item" href="/musim">Musim Anime</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Jadwal Anime</a>
+            <a class="nav-link active" id="item" href="/jadwal">Jadwal Anime</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" id="item" href="#">Genre Anime</a>

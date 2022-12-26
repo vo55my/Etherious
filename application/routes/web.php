@@ -26,9 +26,15 @@ Route::get('/dashboard', function(){
     return view('dashboard.index');
 })->middleware('auth');
 
+Route::get('/home', function(){
+    return view('home');
+})->middleware('auth');
+
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
+
+
 
 Route::get('/animeongoing', function () {
     return view('animeongoing.index');
@@ -45,3 +51,18 @@ Route::get('/animeterpopuler', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/detail', function () {
+    return view('detail');
+});
+
+
+Route::get('/musim', function () {
+    return view('musim');
+});
+
+
+Route::get('/jadwal', function () {
+    return view('jadwal');
+});
+

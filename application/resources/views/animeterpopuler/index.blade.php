@@ -14,7 +14,9 @@
                     <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-5 col-md-6 col-sm-12 fs-6">
-                    <p class="pt-2 fs-5"><a href="#" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a></p>
+                    <p class="pt-2 fs-5">
+                      <a href="#" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                    </p>
                     <div class="row row-cols-4 row-cols-md-1 row-cols-sm-12 d-flex justify-content-center">
                       <p id="icon"><i class="bi bi-person-fill"></i> 858rb</p>
                       <p id="icon"><i class="bi bi-camera-video-fill"></i> TV</p>
@@ -41,7 +43,9 @@
                     <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-5 col-md-6 col-sm-12 fs-6">
-                    <p class="pt-2 fs-5"><a href="#" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a></p>
+                    <p class="pt-2 fs-5">
+                      <a href="#" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                    </p>
                     <div class="row row-cols-4 row-cols-md-1 row-cols-sm-12 d-flex justify-content-center">
                       <p id="icon"><i class="bi bi-person-fill"></i> 858rb</p>
                       <p id="icon"><i class="bi bi-camera-video-fill"></i> TV</p>
