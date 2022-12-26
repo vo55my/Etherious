@@ -121,3 +121,11 @@ body,
 #sidebarMenu {
   background-color: #FFBD69;
 }
+
+#icon {
+  margin-bottom: 0px;
+}
+
+#judul {
+  margin-bottom: 5px;
+}
