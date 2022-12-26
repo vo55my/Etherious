@@ -16,7 +16,8 @@ body,
 
 .navbar,
 .offcanvas-body,
-.card-header {
+.card-header,
+#item {
   background-color: #543864;
 }
 
