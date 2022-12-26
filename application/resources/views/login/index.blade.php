@@ -30,14 +30,13 @@
       <form action="/login" method="post">
         @csrf
       <div class="form-floating">
-        <input type="username" name="username" class="form-control border-0" id="username" placeholder="Username">
+        <input type="username" name="username" class="form-control border-0 @error('username') is-invalid @enderror" id="username" placeholder="Username">
         <label for="username">Username</label>
-         {{-- @error('email')
-        @error('email')
+        @error('username')
           <div class="invalid-feedback">
             {{ $message }}
           </div>
-        @enderror --}}
+        @enderror
       </div>
 
       <div class="form-floating">
