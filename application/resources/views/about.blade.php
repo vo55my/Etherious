@@ -29,9 +29,9 @@
                         Top Anime
                         </a>
                         <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="#">Anime On Going</a></li>
-                            <li><a class="dropdown-item" href="#">Anime Terpopuler</a></li>
-                            <li><a class="dropdown-item" href="#">Anime Terbaik</a></li>
+                            <li><a class="dropdown-item" href="/animeongoing">Anime On Going</a></li>
+                            <li><a class="dropdown-item" href="/animeterbaik">Anime Terbaik</a></li>
+                            <li><a class="dropdown-item" href="/animeterpopuler">Anime Terpopuler</a></li>
                         </ul>
                     </li>
                 <li class="nav-item">
@@ -44,7 +44,7 @@
                     <a class="nav-link active" id="item" href="#">Genre Anime</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" id="item" href="#">About Us</a>
+                    <a class="nav-link active" id="item" href="/about">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" id="item" href="/login">Login</a>
@@ -61,6 +61,25 @@
     
     <div class="container text-light">
         <h1 class="text-center py-4 judul">About Us</h1>
+        <div class="row pb-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center fs-4 px-4" id="deskripsi">
+                <div class="card border-0">
+                    <div class="card-header">
+                        <div class="text-end" id="item">
+                            <i class="bi bi-circle-fill" id="merah"></i>
+                            <i class="bi bi-circle-fill" id="cream"></i>
+                            <i class="bi bi-circle-fill" id="hitam"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum impedit numquam sint ex possimus voluptatum? Debitis neque qui magnam soluta voluptatem nesciunt temporibus ducimus nostrum animi voluptatum necessitatibus tempore quo vitae nulla accusantium amet, assumenda itaque in numquam quasi.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                <img src="img/Shinakamana.png" width="300rem" class="mb-3 img-thumbnail border-0 rounded-circle" id="gambar" alt="">
+            </div>
+        </div>
         <div class="row pb-5">
             <div class="col-lg-6 col-md-6 col-sm-12 text-center">
                 <img src="img/about/Etherious.png" width="300rem" class="mb-3 img-thumbnail border-0 rounded-circle" id="gambar" alt="">

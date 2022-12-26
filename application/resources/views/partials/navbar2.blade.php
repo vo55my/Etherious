@@ -11,23 +11,17 @@
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-              Profil
-            </a>
-            <ul class="dropdown-menu border-0">
-              <li><a class="dropdown-item" href="#">Anime List</a></li>
-              <li><a class="dropdown-item" href="#">Reviews</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" id="item" href="#">Dashboard</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
               Top Anime
             </a>
             <ul class="dropdown-menu border-0">
-              <li><a class="dropdown-item" href="#">Anime On Going</a></li>
-              <li><a class="dropdown-item" href="#">Anime Terpopuler</a></li>
-              <li><a class="dropdown-item" href="#">Anime Terbaik</a></li>
+              <li><a class="dropdown-item" href="/animeongoing">Anime On Going</a></li>
+              <li><a class="dropdown-item" href="/animeterbaik">Anime Terbaik</a></li>
+              <li><a class="dropdown-item" href="/animeterpopuler">Anime Terpopuler</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -45,7 +39,7 @@
           <li class="nav-item">
             <form action="/logout" method="post">
               @csrf
-              <button class="nav-link active border-0" type="submit" id="item">Logout</button>
+              <button class="nav-link active border-0" type="submit" id="item" style="background-color: #543864">Logout</button>
             </form>
           </li>
         </ul>
