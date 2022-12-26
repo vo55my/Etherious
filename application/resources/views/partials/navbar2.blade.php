@@ -40,7 +40,7 @@
             <a class="nav-link active" id="item" href="#">Genre Anime</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">About Us</a>
+            <a class="nav-link active" id="item" href="/about">About Us</a>
           </li>
           <li class="nav-item">
             <form action="/logout" method="post">
