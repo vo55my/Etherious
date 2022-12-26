@@ -120,10 +120,10 @@
               </a>
               </div>
               <div class="card border-0">
-                <a href="#" class="text-decoration-none">
+                <a href="https://www.bilibili.tv/id/play/1005426" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
+                    <div class="col-10"><i><img src="img/bilibili.png" width="50rem"></i> Bilibili</div>
                     <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
                   </div>
                 </div>
@@ -213,11 +213,11 @@
         <a href="#" class="scroll-up display-4 my-5 judul"><i class="bi bi-arrow-up-circle-fill"></i></a>
       </div>
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Musim Anime</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Jadwal Anime</a></li>
+        <li class="nav-item"><a href="/musim" class="nav-link px-2" id="item">Musim Anime</a></li>
+        <li class="nav-item"><a href="/jadwal" class="nav-link px-2" id="item">Jadwal Anime</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Genre Anime</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2" id="item">About Us</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Login</a></li>
+        <li class="nav-item"><a href="/about" class="nav-link px-2" id="item">About Us</a></li>
+        <li class="nav-item"><a href="/login" class="nav-link px-2" id="item">Login</a></li>
       </ul>
       <p class="text-center"><a href="#" class="text-decoration-none navbar-brand">Shinakamana</a></p>
     </footer>

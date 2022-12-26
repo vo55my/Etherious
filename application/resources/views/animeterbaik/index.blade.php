@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
         <div class="container-fluid mx-4">
-          <a class="navbar-brand" href="#">Shinakamana</a>
+          <a class="navbar-brand" href="/">Shinakamana</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,10 +35,10 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" id="item" href="#">Musim Anime</a>
+                  <a class="nav-link active" id="item" href="/musim">Musim Anime</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" id="item" href="#">Jadwal Anime</a>
+                  <a class="nav-link active" id="item" href="/jadwal">Jadwal Anime</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" id="item" href="#">Genre Anime</a>
@@ -72,7 +72,7 @@
                     <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-5 col-md-6 col-sm-12 fs-6">
-                    <p style="margin-bottom: 5px;" class="pt-2 fs-5"><a href="#" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a></p>
+                    <p style="margin-bottom: 5px;" class="pt-2 fs-5"><a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a></p>
                     <div class="row row-cols-4 row-cols-md-1 row-cols-sm-12 d-flex justify-content-center">
                       <p style="margin-bottom: 0px;"><i class="bi bi-person-fill"></i> 858rb</p>
                       <p style="margin-bottom: 0px;"><i class="bi bi-camera-video-fill"></i> TV</p>
@@ -99,7 +99,7 @@
                     <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-5 col-md-6 col-sm-12 fs-6">
-                    <p style="margin-bottom: 5px;" class="pt-2 fs-5"><a href="#" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a></p>
+                    <p style="margin-bottom: 5px;" class="pt-2 fs-5"><a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a></p>
                     <div class="row row-cols-4 row-cols-md-1 row-cols-sm-12 d-flex justify-content-center">
                       <p style="margin-bottom: 0px;"><i class="bi bi-person-fill"></i> 858rb</p>
                       <p style="margin-bottom: 0px;"><i class="bi bi-camera-video-fill"></i> TV</p>
@@ -141,13 +141,13 @@
           <a href="#" class="scroll-up display-4 my-5"><i class="bi bi-arrow-up-circle-fill"></i></a>
         </div>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Musim Anime</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Jadwal Anime</a></li>
+          <li class="nav-item"><a href="/musim" class="nav-link px-2" id="item">Musim Anime</a></li>
+          <li class="nav-item"><a href="/jadwal" class="nav-link px-2" id="item">Jadwal Anime</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Genre Anime</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2" id="item">About Us</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Login</a></li>
+          <li class="nav-item"><a href="/about" class="nav-link px-2" id="item">About Us</a></li>
+          <li class="nav-item"><a href="/login" class="nav-link px-2" id="item">Login</a></li>
         </ul>
-        <a href="#" class="text-decoration-none"><p class="text-center navbar-brand">Shinakamana</p></a>
+        <a href="/" class="text-decoration-none"><p class="text-center navbar-brand">Shinakamana</p></a>
       </footer>
     </div>
 

@@ -17,7 +17,7 @@
               <p class="genre">Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
+              <p><a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a></p>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@
               <p class="genre">Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
+              <p><a class="btn btn-lg hero shadow-lg" href/detail">Tonton Sekarang</a></p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
               <p class="genre">Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a></p>
+              <p><a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a></p>
             </div>
           </div>
         </div>
@@ -63,10 +63,10 @@
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -80,10 +80,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -97,10 +97,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -114,10 +114,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -131,10 +131,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -148,10 +148,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -172,10 +172,10 @@
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -189,10 +189,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -206,10 +206,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -223,10 +223,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -240,10 +240,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -257,10 +257,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -282,10 +282,10 @@
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -299,10 +299,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -316,10 +316,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -333,10 +333,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -350,10 +350,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
@@ -367,10 +367,10 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
-          <a href="#" class="anime text-decoration-none">
+          <a href="/detail" class="anime text-decoration-none">
           <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 href="#" class="card-title">Judul Anime</h5>
+          <h5 href="/detail" class="card-title">Judul Anime</h5>
           </a>
           <hr>
           <div class="row row-cols-4 row-cols-sm-2 row-cols-md-2 mt-1">
