@@ -14,7 +14,7 @@
   <!-- {{-- Navbar --}} -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid mx-4">
-      <a class="navbar-brand" href="#">Shinakamana</a>
+      <a class="navbar-brand" href="/">Shinakamana</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -216,10 +216,10 @@
         <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Musim Anime</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Jadwal Anime</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Genre Anime</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2" id="item">About Us</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Login</a></li>
+        <li class="nav-item"><a href="/about" class="nav-link px-2" id="item">About Us</a></li>
+        <li class="nav-item"><a href="/login" class="nav-link px-2" id="item">Login</a></li>
       </ul>
-      <p class="text-center"><a href="#" class="text-decoration-none navbar-brand">Shinakamana</a></p>
+      <p class="text-center"><a href="/" class="text-decoration-none navbar-brand">Shinakamana</a></p>
     </footer>
   </div>
   <script src="js/script.js"></script>

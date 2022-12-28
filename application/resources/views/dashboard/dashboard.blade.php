@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="navbar flex-md-nowrap" id="head">
-    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="#">Shinakamana</a>
+    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="/">Shinakamana</a>
     <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
