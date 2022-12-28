@@ -25,20 +25,20 @@
           <ul class="nav flex-column">
             <li class="nav-item text-center">
               <img src="img/Shinakamana.png" width="180rem" class="img-fluid pt-4" alt="">
-              <h6 class="pt-2 user">Hello, Hilmy</h6>
+              <h4 class="pt-2 user">Hello, Hilmy</h4>
             </li>
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 text-muted text-uppercase">
             <span class="activity">Your Activity</span>
           </h6>
           <ul class="nav flex-column mb-2">
             <li class="nav-item">
-              <a class="nav-link text-decoration-none" href="#" id="menu">Edit Profil</a>
+              <a class="nav-link text-decoration-none" href="#" id="menu" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-decoration-none" href="#" id="menu">Anime List</a>
+              <a class="nav-link text-decoration-none" href="#anime-list" id="menu">Anime List</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-decoration-none" href="#" id="menu">Reviews</a>
+              <a class="nav-link text-decoration-none" href="#reviews" id="menu">Reviews</a>
             </li>
           </ul>
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 text-muted text-uppercase">
@@ -59,9 +59,45 @@
       </nav>
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <!-- Modals -->
+        <div class="modal fade" id="exampleModal" tabindex="-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Profil</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Username</label>
+                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control profil border-0" id="exampleFormControlInput1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Password</label>
+                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Foto Profil</label>
+                    <input class="form-control profil border-0" type="file" id="formFile">
+                  </div>                  
+                </form>
+              </div>
+              <div class="modal-footer border-0">
+                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn" id="simpan">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- {{-- Anime List --}} -->
           <div class="container">
-            <a href="#" class="text-decoration-none" id="item"><h3 class="my-3">Anime List<i class="bi bi-chevron-right"></i></h3></a>
+            <a href="#" class="text-decoration-none" id="item"><h3 id="anime-list" class="my-3">Anime List<i class="bi bi-chevron-right"></i></h3></a>
             <div class="row ">
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
@@ -171,7 +207,7 @@
 
         <!-- {{-- Review --}} -->
           <div class="container d-grid gap-3 pb-4">
-            <a href="#" class="text-decoration-none" id="item"><h3 class="mt-3">Reviews<i class="bi bi-chevron-right"></i></h3></a>
+            <a href="#" class="text-decoration-none" id="item"><h3 id="reviews" class="mt-3">Reviews<i class="bi bi-chevron-right"></i></h3></a>
             <div class="card border-0">
               <div class="card-body">
                 <div class="row align-items-center d-flex">

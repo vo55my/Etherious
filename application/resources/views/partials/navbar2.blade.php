@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid mx-4">
-    <a class="navbar-brand" href="/">Shinakamana</a>
+    <a class="navbar-brand" href="#">Shinakamana</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2">
       <span class="navbar-toggler-icon"></span>
     </button>

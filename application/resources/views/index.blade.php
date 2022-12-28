@@ -18,7 +18,7 @@
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the first slide of the carousel.</p>
               <p>
-                <a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a>
+                <a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a>
               </p>
             </div>
           </div>
@@ -31,7 +31,7 @@
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the second slide of the carousel.</p>
               <p>
-                <a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a>
+                <a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a>
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the third slide of this carousel.</p>
               <p>
-                <a class="btn btn-lg hero shadow-lg" href="#">Tonton Sekarang</a>
+                <a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a>
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@
 
     {{-- Musim Anime --}}
     <div class="container">
-      <a href="#" class="text-decoration-none" id="item">
+      <a href="/musim" class="text-decoration-none" id="item">
         <h3 class="mb-2">Anime Fall 2022<i class="bi bi-chevron-right"></i></h3>
       </a>
       <div class="row">
@@ -177,7 +177,7 @@
 
   {{-- Anime Sedang Tayang --}}
   <div class="container my-3">
-    <a href="#" class="text-decoration-none" id="item">
+    <a href="/animeongoing" class="text-decoration-none" id="item">
       <h3 class="mb-2">Anime Sedang Tayang<i class="bi bi-chevron-right"></i></h3>
     </a>
     <div class="row">
@@ -289,7 +289,7 @@
 
   {{-- Anime Terpopuler --}}
   <div class="container">
-    <a href="#" class="text-decoration-none" id="item">
+    <a href="/animeterpopuler" class="text-decoration-none" id="item">
       <h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3>
     </a>
     <div class="row">
