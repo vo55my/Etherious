@@ -28,7 +28,7 @@
               <p class="genre">Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href/detail">Tonton Sekarang</a></p>
+              <p><a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a></p>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
 
     <!-- {{-- Musim Anime --}} -->
     <div class="container">
-    <a href="#" class="text-decoration-none" id="item">
+    <a href="/musim" class="text-decoration-none" id="item">
       <h3 class="mb-2">Anime Fall 2022<i class="bi bi-chevron-right"></i></h3>
     </a>
     <div class="row">
@@ -170,7 +170,7 @@
 
     <!-- {{-- Anime Sedang Tayang --}} -->
     <div class="container my-3">
-    <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Sedang Tayang<i class="bi bi-chevron-right"></i></h3></a>
+    <a href="/animeongoing" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Sedang Tayang<i class="bi bi-chevron-right"></i></h3></a>
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
@@ -280,7 +280,7 @@
 
     <!-- {{-- Anime Terpopuler --}} -->
     <div class="container">
-    <a href="#" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3></a>
+    <a href="/animeterpopuler" class="text-decoration-none" id="item"><h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3></a>
     <div class="row">
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">

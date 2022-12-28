@@ -19,11 +19,16 @@ body,
 .card-header,
 .accordion-button,
 .accordion-button:hover,
-.accordion-item {
+.accordion-item,
+.modal-header,
+.modal-footer,
+.profil {
   background-color: #543864;
 }
 
-#gambar {
+#gambar,
+#hari,
+#sidebarMenu {
   background-color: #FFBD69;
 }
 
@@ -38,6 +43,8 @@ body,
 .scroll-up,
 .accordion-button,
 .judul,
+.modal-title,
+.profil,
 #item,
 #merah {
   color: #FF6363;
@@ -48,11 +55,12 @@ body,
 .dropdown-item:hover,
 .carousel-caption,
 .genre,
-#item:hover,
 .dropdown-toggle:hover,
 .navbar-brand:hover,
 .accordion-button:hover,
 .scroll-up:hover,
+.form-label,
+#item:hover,
 #deskripsi,
 #page:hover,
 #cream {
@@ -62,19 +70,24 @@ body,
 .info,
 .page-link:hover,
 .anime,
-#review,
 .activity,
+#review,
 #menu:hover,
-#hitam {
+#hitam,
+#hari,
+#batal {
   color: #202040;
 }
 
 .anime:hover,
 .info:hover,
 .isi-link:hover,
-#review:hover,
 .user,
-#menu {
+#review:hover,
+#menu,
+#hari:hover,
+#batal:hover,
+#simpan:hover {
   color: #543864;
 }
 
@@ -95,7 +108,8 @@ body,
   color: #FF6363;
 }
 
-.card {
+.card,
+#simpan {
   background-color: #FFBD69;
   color: #202040;
 }
@@ -111,7 +125,8 @@ body,
   color: #FFBD69;
 }
 
-.offcanvas-header {
+.offcanvas-header,
+.modal-body {
   background-color: #202040;
 }
 
@@ -123,14 +138,6 @@ body,
   padding-left: 25px;
 }
 
-#sidebarMenu {
-  background-color: #FFBD69;
-}
-
-#icon {
-  margin-bottom: 0px;
-}
-
-#judul {
-  margin-bottom: 5px;
+#batal {
+  background-color: #FF6363;
 }
