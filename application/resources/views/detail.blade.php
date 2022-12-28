@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,7 +61,11 @@
     </div>
   </nav>
   <!-- {{-- Navbar End --}} -->
+=======
+@extends('layouts.main1')
+>>>>>>> main
 
+@section('container')
   <div class="container-fluid mt-4">
     <div class="row mx-2">
       <div class="col-lg-4 col-md-5 col-sm-12">
@@ -120,10 +125,10 @@
               </a>
               </div>
               <div class="card border-0">
-                <a href="#" class="text-decoration-none">
+                <a href="https://www.bilibili.tv/id/play/1005426" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
+                    <div class="col-10"><i><img src="img/bilibili.png" width="50rem"></i> Bilibili</div>
                     <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
                   </div>
                 </div>
@@ -207,6 +212,7 @@
       </div>
     </div>
   </div>
+<<<<<<< HEAD
   <div class="container mt-5">
     <footer class="py-3 my-4">
       <div class="grid text-center">
@@ -227,3 +233,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
+=======
+@endsection
+>>>>>>> main

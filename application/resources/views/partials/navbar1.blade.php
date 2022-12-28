@@ -22,10 +22,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Musim Anime</a>
+            <a class="nav-link active" id="item" href="/musim">Musim Anime</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Jadwal Anime</a>
+            <a class="nav-link active" id="item" href="/jadwal">Jadwal Anime</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" id="item" href="#">Genre Anime</a>

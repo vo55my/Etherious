@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,13 +55,34 @@
                     <input class="cari form-control me-2 border-0" type="search" placeholder="Search" aria-label="Search" id="search-input">
                     <button class="btn-cari btn" type="submit" id="search-button"><i class="bi bi-search"></i></button>
                 </form>
-                </div>
-            </div>
-        </div>
-    </nav>
-    
+=======
+@extends('layouts.main1')
+
+@section('container')
     <div class="container text-light">
         <h1 class="text-center py-4 judul">About Us</h1>
+        <div class="row pb-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 align-self-center fs-4 px-4" id="deskripsi">
+                <div class="card border-0">
+                    <div class="card-header">
+                        <div class="text-end" id="item">
+                            <i class="bi bi-circle-fill" id="merah"></i>
+                            <i class="bi bi-circle-fill" id="cream"></i>
+                            <i class="bi bi-circle-fill" id="hitam"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Selamat Datang di Shinakamana!!!</p>
+                        <p>Website Shinakamana adalah website yang memberikan info platform menonton anime apapun secara legal dengan mudah dan cepat!</p>
+                        <p>Website Shinakamana dibuat dan dikelola oleh Tim Etherious.</p>
+                    </div>
+>>>>>>> main
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                <img src="img/Shinakamana.png" width="300rem" class="mb-3 img-thumbnail border-0 rounded-circle" id="gambar" alt="">
+            </div>
+        </div>
         <div class="row pb-5">
             <div class="col-lg-6 col-md-6 col-sm-12 text-center">
                 <img src="img/about/Etherious.png" width="300rem" class="mb-3 img-thumbnail border-0 rounded-circle" id="gambar" alt="">
@@ -75,7 +97,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        Tim Etherious adalah tim Web Developer yang beranggotakan 4 orang mahasiswa Teknik Informatika Universitas Pasundan Bandung yang terdiri dari 1 orang Project Leader, 1 orang Front-End Web Developer, dan 2 orang Back-End Web Developer.
+                        Tim Etherious adalah tim Web Developer yang beranggotakan 4 Mahasiswa Teknik Informatika Universitas Pasundan Bandung yang terdiri dari 1 orang Project Leader, 1 orang Front-End Web Developer, dan 2 orang Back-End Web Developer.
                     </div>
                 </div>
             </div>
@@ -106,11 +128,12 @@
                 <img src="/img/about/Andrie.jpg" width="200" class="img-thumbnail border-0 rounded-circle" id="gambar">
                 <h3 class="pt-3 judul">Andrie Firmansyah</h3>
                 <h4 class="judul">Back-End</h4>
-                <p><a class="pt-2 text-decoration-none isi-link"><i class="bi bi-instagram"></i> Instagram</a></p>
+                <p><a class="pt-2 text-decoration-none isi-link" href="https://www.instagram.com/herox02_" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.github.com/Andriefir" target="_blank"><i class="bi bi-github"></i> Github</a></p>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <div class="container">
         <footer class="py-3 my-4">
           <div class="grid text-center">
@@ -131,3 +154,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
+=======
+@endsection
+>>>>>>> main
