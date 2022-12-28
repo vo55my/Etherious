@@ -63,7 +63,6 @@
               </div>
             </div>
         </div>
-      </div>
 
     <nav class="mt-5">
       <ul class="pagination justify-content-center">
