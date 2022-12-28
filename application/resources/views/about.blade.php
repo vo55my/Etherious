@@ -14,7 +14,9 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum impedit numquam sint ex possimus voluptatum? Debitis neque qui magnam soluta voluptatem nesciunt temporibus ducimus nostrum animi voluptatum necessitatibus tempore quo vitae nulla accusantium amet, assumenda itaque in numquam quasi.
+                        <p>Selamat Datang di Shinakamana!!!</p>
+                        <p>Website Shinakamana adalah website yang memberikan info platform menonton anime apapun secara legal dengan mudah dan cepat!</p>
+                        <p>Website Shinakamana dibuat dan dikelola oleh Tim Etherious.</p>
                     </div>
                 </div>
             </div>
@@ -36,7 +38,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        Tim Etherious adalah tim Web Developer yang beranggotakan 4 orang mahasiswa Teknik Informatika Universitas Pasundan Bandung yang terdiri dari 1 orang Project Leader, 1 orang Front-End Web Developer, dan 2 orang Back-End Web Developer.
+                        Tim Etherious adalah tim Web Developer yang beranggotakan 4 Mahasiswa Teknik Informatika Universitas Pasundan Bandung yang terdiri dari 1 orang Project Leader, 1 orang Front-End Web Developer, dan 2 orang Back-End Web Developer.
                     </div>
                 </div>
             </div>
@@ -67,7 +69,7 @@
                 <img src="/img/about/Andrie.jpg" width="200" class="img-thumbnail border-0 rounded-circle" id="gambar">
                 <h3 class="pt-3 judul">Andrie Firmansyah</h3>
                 <h4 class="judul">Back-End</h4>
-                <p><a class="pt-2 text-decoration-none isi-link"><i class="bi bi-instagram"></i> Instagram</a></p>
+                <p><a class="pt-2 text-decoration-none isi-link" href="https://www.instagram.com/herox02_" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.github.com/Andriefir" target="_blank"><i class="bi bi-github"></i> Github</a></p>
             </div>
         </div>
