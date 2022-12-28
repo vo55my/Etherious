@@ -11,7 +11,7 @@
       <li class="nav-item">
         <form action="/logout" method="post">
           @csrf
-          <button class="nav-link active border-0" type="submit" id="item" style="background-color: #543864">Logout</button>
+          <button class="nav-link active border-0" type="submit" id="item" style="background-color: #202040">Logout</button>
         </form>
       </li>
     </ul>
