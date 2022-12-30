@@ -61,5 +61,21 @@
         </div>
       </div>
     </div>
+    <nav class="mt-5">
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link border-0" href="#" id="page"><i class="bi bi-caret-left-fill"></i></a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">1</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">2</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">3</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">4</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">5</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">6</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">7</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">8</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">9</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">10</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page"><i class="bi bi-caret-right-fill"></i></a></li>
+      </ul>
+    </nav>
   </div>
 @endsection
