@@ -4,7 +4,7 @@
   <div class="container-fluid mt-4">
     <div class="row mx-2">
       <div class="col-lg-4 col-md-5 col-sm-12">
-        <img src="img/sidebar/comment-4.jpg" width="300rem" class="rounded mb-3" alt="">
+        <img src="img/anime/spyxfamily.webp" width="300rem" class="rounded mb-3" alt="">
         <div class="card border-0" style="width: 20rem; height: 4rem;">
           <a href="#" class="text-decoration-none">
           <div class="card-body">
@@ -48,23 +48,20 @@
         <p class="isi">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem explicabo beatae impedit perferendis, eligendi obcaecati voluptatem est, eum incidunt rerum necessitatibus aliquid? Laborum aut, earum facere adipisci, nisi laudantium a odio ut assumenda voluptate sed quisquam perferendis vel soluta asperiores exercitationem. Officiis eveniet ad doloremque, suscipit dolores magni pariatur cupiditate fugit molestiae! Eligendi eos repellendus magni. Dolorem eaque tempore illo facere ducimus, aspernatur optio et dignissimos porro facilis recusandae magni quod officiis sequi quo atque perferendis, perspiciatis odit cum quis. Maxime voluptates voluptatum, numquam omnis explicabo nulla temporibus et veniam, in eius error repudiandae tempore dolores hic debitis cupiditate dolor doloremque doloribus? Facilis soluta voluptatum, earum dolore tempore tempora nam illo quo excepturi neque unde commodi minima reiciendis, vitae corporis?</p>
         <p class="fs-5 judul">Tersedia di</p>
           <div class="row">
-            <div class="col d-grid gap-2 fs-5">
-              <div class="card border-0">
-                <a href="#" class="text-decoration-none">
-                <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
-                  </div>
-                </div>
-              </a>
-              </div>
+            <div class="col-lg-6 col-sm-12 d-grid gap-2 fs-5 mt-2">
               <div class="card border-0">
                 <a href="https://www.bilibili.tv/id/play/1005426" class="text-decoration-none">
                 <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i><img src="img/bilibili.png" width="50rem"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/bilibili.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Bilibili
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
                   </div>
                 </div>
               </a>
@@ -72,9 +69,16 @@
               <div class="card border-0">
                 <a href="#" class="text-decoration-none">
                 <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/catchplay-plus.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Catchplay+
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
                   </div>
                 </div>
               </a>
@@ -82,51 +86,103 @@
               <div class="card border-0">
                 <a href="#" class="text-decoration-none">
                 <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/crunchyroll.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Crunchyroll
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="card border-0">
+                <a href="#" class="text-decoration-none">
+                <div class="card-body">
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/hotstar.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Hotstar
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
                   </div>
                 </div>
               </a>
               </div>
             </div>
-            <div class="col d-grid gap-2 fs-5">
+            <div class="col-lg-6 col-sm-12 d-grid gap-2 fs-5 mt-2">
               <div class="card border-0">
-                <a href="" class="text-decoration-none">
+                <a href="#" class="text-decoration-none">
                 <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/iflix.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Iflix
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
                   </div>
                 </div>
               </a>
               </div>
               <div class="card border-0">
-                <a href="" class="text-decoration-none">
+                <a href="#" class="text-decoration-none">
                 <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/iqiyi.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Iqiyi
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
                   </div>
                 </div>
               </a>
               </div>
               <div class="card border-0">
-                <a href="" class="text-decoration-none">
+                <a href="#" class="text-decoration-none">
                 <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/netflix.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Netflix
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
                   </div>
                 </div>
               </a>
               </div>
               <div class="card border-0">
-                <a href="" class="text-decoration-none">
+                <a href="#" class="text-decoration-none">
                 <div class="card-body">
-                  <div class="row info">
-                    <div class="col-10"><i class="bi bi-youtube"></i> Bilibili</div>
-                    <div class="col-2"><i class="bi bi-box-arrow-up-right"></i></div>
+                  <div class="row info align-items-center">
+                    <div class="col-2">
+                      <img src="img/link/prime.webp" width="50rem">
+                    </div>
+                    <div class="col-8">
+                      Prime Video
+                    </div>
+                    <div class="col-2">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
                   </div>
                 </div>
               </a>
@@ -135,11 +191,11 @@
           </div>
         <p class="fs-5 mt-4 judul">Tema Lagu</p>
           <div class="row">
-            <div class="col-6 isi">
+            <div class="col-lg-6 col-sm-12 isi">
               <p class="">Opening</p>
               <p><a href="#" class="text-decoration-none isi-link">"SOUVENIR" by BUMP OF CHICKEN</a></p>
             </div>
-            <div class="col-6 isi">
+            <div class="col-lg-6 col-sm-12 isi">
               <p class="">Ending</p>
               <p><a href="" class="text-decoration-none isi-link">"Shikisai (色彩)" by yama</a></p>
             </div>

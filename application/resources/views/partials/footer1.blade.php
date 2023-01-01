@@ -10,7 +10,7 @@
       <li class="nav-item"><a href="/about" class="nav-link px-2" id="item">About Us</a></li>
       <li class="nav-item"><a href="/login" class="nav-link px-2" id="item">Login</a></li>
     </ul>
-    <a href="#" class="text-decoration-none">
+    <a href="/" class="text-decoration-none">
       <p class="text-center navbar-brand">Shinakamana</p>
     </a>
   </footer>

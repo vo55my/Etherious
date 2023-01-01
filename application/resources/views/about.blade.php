@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 text-center">
-                <img src="img/Shinakamana.png" width="300rem" class="mb-3 img-thumbnail border-0 rounded-circle" id="gambar" alt="">
+                <img src="img/about/Shinakamana.png" width="300rem" class="mb-3 img-thumbnail border-0 rounded-circle" id="gambar" alt="">
             </div>
         </div>
         <div class="row pb-5">
@@ -47,28 +47,28 @@
             <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4">
                 <img src="/img/about/hilmy.jpg" width="200" class="img-thumbnail border-0 rounded-circle" id="gambar">
                 <h3 class="pt-3 judul">Dhaifullah Hilmy</h3>
-                <h4 class="judul">Project Leader</h4>
+                <h4 class="judul">Project Manager</h4>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.instagram.com/si_hilmy" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.github.com/vo55my" target="_blank"><i class="bi bi-github"></i> Github</a></p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4">
                 <img src="/img/about/dimas2.jpeg" width="200" class="img-thumbnail border-0 rounded-circle" id="gambar">
                 <h3 class="pt-3 judul">Dimas Prayuda</h3>
-                <h4 class="judul">Front-End</h4>
+                <h4 class="judul">Front-End Web Developer</h4>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.instagram.com/dimspryda_" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.github.com/dimasprayuda212" target="_blank"><i class="bi bi-github"></i> Github</a></p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4">
                 <img src="/img/about/fresa.jpg" width="200" class="img-thumbnail border-0 rounded-circle" id="gambar">
                 <h3 class="pt-3 judul">Fresabayu Anggoro</h3>
-                <h4 class="judul">Back-End</h4>
+                <h4 class="judul">Back-End Web Developer</h4>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.instagram.com/fresa.ba" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.github.com/fresaaaaa" target="_blank"><i class="bi bi-github"></i> Github</a></p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4">
                 <img src="/img/about/Andrie.jpg" width="200" class="img-thumbnail border-0 rounded-circle" id="gambar">
-                <h3 class="pt-3 judul">Andrie Firmansyah</h3>
-                <h4 class="judul">Back-End</h4>
+                <h3 class="pt-3 judul">Moch. Andrie Firmansyah</h3>
+                <h4 class="judul">Back-End Web Developer</h4>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.instagram.com/herox02_" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
                 <p><a class="pt-2 text-decoration-none isi-link" href="https://www.github.com/Andriefir" target="_blank"><i class="bi bi-github"></i> Github</a></p>
             </div>
