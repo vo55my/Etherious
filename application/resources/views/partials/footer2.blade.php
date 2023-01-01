@@ -15,7 +15,7 @@
         </form>
       </li>
     </ul>
-    <a href="#" class="text-decoration-none">
+    <a href="/" class="text-decoration-none">
       <p class="text-center navbar-brand">Shinakamana</p>
     </a>
   </footer>

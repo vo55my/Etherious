@@ -190,10 +190,10 @@
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Link Tema Lagu</label>
                     <div class="row">
-                      <div class="col">
+                      <div class="col-lg-6 col-sm-12">
                         <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
                       </div>
-                      <div class="col">
+                      <div class="col-lg-6 col-sm-12">
                         <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
                       </div>
                     </div>
