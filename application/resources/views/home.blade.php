@@ -11,7 +11,7 @@
       <div class="container-fluid mt-4 mb-4">
         <div class="carousel-inner">
         <div class="carousel-item active text-center">
-          <img src="/img/hero/spy_x_family_thumbnail.jpeg" style="filter: brightness(50%)" width="1200rem" height="610rem" class="rounded" alt="">
+          <img src="/img/hero/spy_x_family_thumbnail.jpeg" id="slide" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
               <p>Genre Anime</p>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="/img/hero/aot_thumbnail.jpeg" style="filter: brightness(50%)" width="1200rem" height="610rem" class="rounded" alt="">
+          <img src="/img/hero/aot_thumbnail.jpeg" id="slide" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
               <p>Genre Anime</p>
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="/img/hero/blue_lock_thumbnail.jpeg" style="filter: brightness(50%)" width="1200rem" height="610rem" class="rounded" alt="">
+          <img src="/img/hero/blue_lock_thumbnail.jpeg" id="slide" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
               <p>Genre Anime</p>
