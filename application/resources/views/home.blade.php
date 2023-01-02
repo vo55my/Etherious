@@ -8,38 +8,44 @@
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
       </div>
-      <div class="container-fluid my-4">
+      <div class="container-fluid mt-4 mb-4">
         <div class="carousel-inner">
         <div class="carousel-item active text-center">
-          <img src="img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/spy_x_family_thumbnail.jpeg" style="filter: brightness(50%)" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
-              <p class="genre">Genre Anime</p>
+              <p>Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a></p>
+              <p>
+                <a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a>
+              </p>
             </div>
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/aot_thumbnail.jpeg" style="filter: brightness(50%)" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
-              <p class="genre">Genre Anime</p>
+              <p>Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a></p>
+              <p>
+                <a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a>
+              </p>
             </div>
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/blue_lock_thumbnail.jpeg" style="filter: brightness(50%)" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
-              <p class="genre">Genre Anime</p>
+              <p>Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a></p>
+              <p>
+                <a class="btn btn-lg hero shadow-lg" href="/detail">Tonton Sekarang</a>
+              </p>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@
               <div class="card-body">
                 <div class="row align-items-center justify-content-center">
                   <div class="col-lg-1 col-md-2 col-sm-12 text-center">
-                    <p class="display-3">#2</p>
+                    <p class="display-3">#1</p>
                   </div>
                   <div class="col-lg-2 col-md-3 col-sm-12 text-center">
                     <img src="img/anime/spy_x_family.webp" width="400rem" class="rounded img-fluid" alt="">
@@ -37,7 +37,7 @@
               <div class="card-body">
                 <div class="row align-items-center justify-content-center">
                   <div class="col-lg-1 col-md-2 col-sm-12 text-center">
-                    <p class="display-3">#1</p>
+                    <p class="display-3">#2</p>
                   </div>
                   <div class="col-lg-2 col-md-3 col-sm-12 text-center">
                     <img src="img/anime/aot.webp" width="400rem" class="rounded img-fluid" alt="">

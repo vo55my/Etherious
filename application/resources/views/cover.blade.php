@@ -27,7 +27,7 @@
                         <p class="quote fs-4" x-text="quote"></p>
                         <p class="lead" x-text="character"></p>
                         <p x-text="anime"></p>
-                        <a class="btn btn-lg hero shadow-lg mt-4" href="/">Buka <i class="bi bi-chevron-right"></i></a>
+                        <a class="btn btn-lg hero shadow-lg mt-4" href="index">Buka <i class="bi bi-chevron-right"></i></a>
                     </div>
                 </div>
             </div>

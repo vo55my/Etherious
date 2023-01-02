@@ -16,25 +16,27 @@ use App\Http\Controllers\RegisterController;
 */
 
 Route::get('/', function () {
+    return view('cover');
+});
+
+Route::get('/index', function () {
     return view('index');
 });
 
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'register']);
 
-Route::get('/dashboard', function(){
+Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware('auth');
 
-Route::get('/home', function(){
+Route::get('/home', function () {
     return view('home');
 })->middleware('auth');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
-
-
 
 Route::get('/animeongoing', function () {
     return view('animeongoing.index');
@@ -56,13 +58,14 @@ Route::get('/detail', function () {
     return view('detail');
 });
 
-
 Route::get('/musim', function () {
     return view('musim');
 });
-
 
 Route::get('/jadwal', function () {
     return view('jadwal');
 });
 
+Route::get('/genre', function () {
+    return view('genre');
+});
