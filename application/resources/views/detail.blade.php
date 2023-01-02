@@ -4,7 +4,7 @@
   <div class="container-fluid mt-4">
     <div class="row mx-2">
       <div class="col-lg-4 col-md-5 col-sm-12">
-        <img src="img/anime/spyxfamily.webp" width="300rem" class="rounded mb-3" alt="">
+        <img src="img/anime/spy_x_family.webp" width="300rem" class="rounded mb-3" alt="">
         <div class="card border-0" style="width: 20rem; height: 4rem;">
           <a href="#" class="text-decoration-none">
           <div class="card-body">

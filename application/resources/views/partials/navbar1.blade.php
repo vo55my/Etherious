@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid mx-4">
-    <a class="navbar-brand" href="/">Shinakamana</a>
+    <a class="navbar-brand" href="/index">Shinakamana</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,7 +28,7 @@
             <a class="nav-link active" id="item" href="/jadwal">Jadwal Anime</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Genre Anime</a>
+            <a class="nav-link active" id="item" href="/genre">Genre Anime</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" id="item" href="/about">About Us</a>
