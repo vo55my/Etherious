@@ -12,12 +12,12 @@
 </head>
 <body>
   <header class="navbar flex-md-nowrap" id="head">
-    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="#">Shinakamana</a>
+    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="/dashboard-admin.home">Shinakamana</a>
     <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
   </header>
-  
+
   <div class="container-fluid">
     <div class="row">
       <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
@@ -25,7 +25,7 @@
           <ul class="nav flex-column">
             <li class="nav-item text-center">
               <img src="img/favicon.png" width="180rem" class="img-fluid pt-4" alt="">
-              <h4 class="pt-2 user">Hello, Hilmy</h4>
+              <h4 class="pt-2 user">Hello, {{ auth()->user()->username }}</h4>
             </li>
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 text-muted text-uppercase">
             <span class="activity">Your Activity</span>
@@ -58,15 +58,18 @@
           </h6>
           <ul class="nav flex-column mb-2">
             <li class="nav-item">
-              <a class="nav-link text-decoration-none" href="/home" id="menu">Home</a>
+              <a class="nav-link text-decoration-none" href="/dashboard-admin.home" id="menu">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-decoration-none" href="/logout" id="menu">Logout</a>
+                <form action="/logout" method="post">
+                @csrf
+                <button class="nav-link active border-0" type="submit" id="menu" style="background-color: #ffbd69">Logout</button>
+                </form>
             </li>
           </ul>
         </div>
       </nav>
-  
+
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <!-- Edit Profil -->
         <div class="modal fade" id="profil" tabindex="-1">
@@ -77,28 +80,29 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form action="">
+                <form action="/dashboard-admin/update" method="post" enctype="multipart/form-data">
+                    @csrf
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Username</label>
-                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control profil border-0" name="username" id="username" value="{{ old('username') }}">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control profil border-0" name="email" id="email" value="{{ old('email') }}">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Password</label>
-                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control profil border-0" name="password" id="password">
                   </div>
                   <div class="mb-3">
-                    <label for="formFile" class="form-label">Foto Profil</label>
-                    <input class="form-control profil border-0" type="file" id="formFile">
-                  </div>                  
+                    <label for="image" class="form-label">Foto Profil</label>
+                    <input class="form-control profil border-0" type="file" name="image" id="image">
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="submit" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn" id="simpan">Save changes</button>
+                  </div>
                 </form>
-              </div>
-              <div class="modal-footer border-0">
-                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn" id="simpan">Save changes</button>
               </div>
             </div>
           </div>
@@ -110,129 +114,134 @@
           <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header border-0">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">New Anime</h1>
+                <h1 class="modal-title fs-5" id="anime">New Anime</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form action="">
+                <form action="/dashboard-admin/create" method="post" enctype="multipart/form-data">
+                @csrf
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Judul Anime</label>
-                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="judul" class="form-label">Judul Anime</label>
+                    <input type="text" class="form-control profil border-0" name="judul" id="judul" required>
                   </div>
                   <div class="row">
                     <div class="col">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Status</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="status"  class="form-label">Status</label>
+                        <input type="text" class="form-control profil border-0" name="status" id="status" required>
                       </div>
                     </div>
                     <div class="col">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Tanggal Tayang</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="tanggal_tayang"  class="form-label">Tanggal Tayang</label>
+                        <input type="date" class="form-control profil border-0" name="tanggal_tayang" id="tanggal_tayang" required>
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Studio</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="studio" class="form-label">Studio</label>
+                        <input type="text" class="form-control profil border-0" name="studio" id="studio" required>
                       </div>
                     </div>
                     <div class="col">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Musim</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="musim" class="form-label">Musim</label>
+                        <input type="text" class="form-control profil border-0" name="musim" id="musim" required>
                       </div>
                     </div>
                     <div class="col">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Genre</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="genre" class="form-label">Genre</label>
+                        <input type="text" class="form-control profil border-0" name="genre" id="genre" required>
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-3">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Jumlah Tayangan</label>
-                        <input type="email" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="jumlah_tayang"  class="form-label">Jumlah Tayangan</label>
+                        <input type="text" class="form-control profil border-0" name="jumlah_tayang" id="jumlah_tayang" required>
                       </div>
                     </div>
                     <div class="col-3">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Tipe Anime</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="tipe_anime" class="form-label">Tipe Anime</label>
+                        <input type="text" class="form-control profil border-0" name="tipe_anime" id="tipe_anime" required>
                       </div>
                     </div>
                     <div class="col-3">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Rating Anime</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="rating"  class="form-label">Rating Anime</label>
+                        <input type="text" class="form-control profil border-0" name="rating" id="rating" required>
                       </div>
                     </div>
                     <div class="col-3">
                       <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Total Episode</label>
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <label for="jumlah_episode" class="form-label">Total Episode</label>
+                        <input type="text" class="form-control profil border-0" name="jumlah_episode" id="jumlah_episode" required>
                       </div>
                     </div>
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Sinopsis</label>
-                    <textarea type="text" class="form-control profil border-0" id="exampleFormControlInput1"></textarea>
+                    <label for="sinopsis" class="form-label">Sinopsis</label>
+                    <textarea type="text" class="form-control profil border-0" name="sinopsis" id="sinopsis" required></textarea>
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Link MyAnimeList</label>
-                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="link_anime_list" class="form-label">Link MyAnimeList</label>
+                    <input type="text" class="form-control profil border-0" name="link_anime_list" id="link_anime_list" required>
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Link Tema Lagu</label>
+                    <label for="link_lagu" class="form-label">Link Tema Lagu</label>
                     <div class="row">
-                      <div class="col-lg-6 col-sm-12">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      <div class="col">
+                        <input type="text" class="form-control profil border-0" name="link_lagu" id="link_lagu" required>
                       </div>
-                      <div class="col-lg-6 col-sm-12">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      <div class="col">
+                        <input type="text" class="form-control profil border-0" name="link_lagu_2" id="link_lagu_2" required>
                       </div>
                     </div>
                   </div>
                   <div>
-                    <label for="exampleFormControlInput1" class="form-label">Link Nonton</label>
+                    <label for="link-nonton" class="form-label">Link Nonton</label>
                     <div class="row">
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_1" id="link_nonton_1" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_2" id="link_nonton_2" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_3" id="link_nonton_3" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_4" id="link_nonton_4" required>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_5" id="link_nonton_5" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_6" id="link_nonton_6" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_7" id="link_nonton_7" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_8" id="link_nonton_8" required>
                       </div>
                     </div>
                   </div>
                   <div class="mb-3">
-                    <label for="formFile" class="form-label">Poster Anime</label>
-                    <input class="form-control profil border-0" type="file" id="formFile">
-                  </div>                  
+                    <label for="image" class="form-label">Poster Anime</label>
+                    <input class="form-control profil border-0" type="file" name="image" id="image" required>
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="submit" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn" id="simpan">Save changes</button>
+                  </div>
                 </form>
               </div>
               <div class="modal-footer border-0">
@@ -1411,6 +1420,23 @@
     </div>
   </div>
 
+  {{-- <script>
+    function previewImage(){
+            const image = document.querySelector('#image');
+            const imgPreview = document.querySelector('.img-preview');
+
+            imgPreview.style.display = 'block';
+
+            const oFReader = new FilReader();
+            oFReader.readAsDataURL(image.files[0]);
+
+            oFReader.onload = function(oFREvent) {
+                imgPreview.src = oFREvent.target.result;
+            }
+
+        }
+
+  </script> --}}
   <script src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

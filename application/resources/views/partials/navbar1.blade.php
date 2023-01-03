@@ -10,6 +10,7 @@
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
       </div>
       <div class="offcanvas-body">
+          {{-- @auth --}}
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -33,9 +34,11 @@
           <li class="nav-item">
             <a class="nav-link active" id="item" href="/about">About Us</a>
           </li>
+          {{-- @else --}}
           <li class="nav-item">
             <a class="nav-link active" id="item" href="/login">Login</a>
           </li>
+          {{-- @endauth --}}
         </ul>
         <form action="/search" class="d-flex mt-3 mt-lg-0" role="search">
           <input class="cari form-control me-2 border-0" type="search" placeholder="Search" id="search-input">

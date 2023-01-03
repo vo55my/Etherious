@@ -1,4 +1,4 @@
-@extends('layouts.main2')
+@extends('dashboard-user.layouts.main2')
 
 @section('container')
     <!-- {{-- Hero --}} -->

@@ -12,7 +12,7 @@
 </head>
 <body>
   @include('partials.navbar2')
-  
+
   @yield('container')
 
   @include('partials.footer2')

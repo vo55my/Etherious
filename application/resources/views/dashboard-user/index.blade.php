@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="navbar flex-md-nowrap" id="head">
-    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="/home">Shinakamana</a>
+    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="/dashboard-user.home">Shinakamana</a>
     <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,6 +23,7 @@
       <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
         <div class="position-sticky sidebar-sticky">
           <ul class="nav flex-column">
+            {{-- @auth --}}
             <li class="nav-item text-center">
               <img src="img/Shinakamana.png" width="180rem" class="img-fluid pt-4" alt="">
               <h4 class="pt-2 user">Hello, {{ auth()->user()->username }}</h4>
@@ -46,14 +47,16 @@
           </h6>
           <ul class="nav flex-column mb-2">
             <li class="nav-item">
-              <a class="nav-link text-decoration-none" href="/home" id="menu">Home</a>
+              <a class="nav-link text-decoration-none" href="/dashboard-user.home" id="menu">Home</a>
             </li>
+            {{-- @else --}}
             <li class="nav-item">
                 <form action="/logout" method="post">
                   @csrf
                   <button class="nav-link active border-0" type="submit" id="menu" style="background-color: #ffbd69">Logout</button>
                 </form>
               </li>
+              {{-- @endauth --}}
           </ul>
         </div>
       </nav>
@@ -68,34 +71,24 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form action="/dashboard/update" method="post" enctype="multipart/form-data">
-                  @csrf
+                <form action="/dashboard-user/update" method="post" enctype="multipart/form-data">
+                    @csrf
                   <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="text" name="username" class="form-control profil border-0 @error('username')is-invalid @enderror" id="username" placeholder="Username" required value="{{ old('$user->username', $user->username) }}">
-                    @error('username')
-                    <div class="invalid-feedback">
-                      {{ $message }}
-                    </div>
-                    @enderror
+                    <input type="text" class="form-control profil border-0" id="username" name="username">
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" name="email" class="form-control profil border-0 @error('email')is-invalid @enderror" id="email" placeholder="name@example.com" required value="{{ old('$user->email', $user->email) }}">
-                    @error('email')
-                    <div class="invalid-feedback">
-                      {{ $message }}
-                    </div>
-                    @enderror
+                    <input type="email" class="form-control profil border-0" id="email" name="email">
                   </div>
                   <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control profil border-0 @error('password')is-invalid @enderror" id="password" placaholder="Password" required>
+                    <input type="password" name="password" id="password" class="form-control profil border-0">
                   </div>
                   <div class="mb-3">
                     <label for="image" class="form-label">Foto Profil</label>
-                    <input class="form-control profil border-0" name="oldImage" type="file" id="formFile" value="{{ $user->image }}">
-                  </div>                  
+                    <input class="form-control profil border-0" type="file" id="image" name="image">
+                  </div>
                   <div class="modal-footer border-0">
                     <button type="submit" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
                     <button type="submit" class="btn" id="simpan">Save changes</button>
