@@ -8,9 +8,14 @@
       <li class="nav-item"><a href="/jadwal" class="nav-link px-2" id="item">Jadwal Anime</a></li>
       <li class="nav-item"><a href="/genre" class="nav-link px-2" id="item">Genre Anime</a></li>
       <li class="nav-item"><a href="/about" class="nav-link px-2" id="item">About Us</a></li>
-      <li class="nav-item"><a href="/login" class="nav-link px-2" id="item">Login</a></li>
+      <li class="nav-item">
+        <form action="/logout" method="post">
+          @csrf
+          <button class="nav-link active border-0" type="submit" id="item" style="background-color: #202040">Logout</button>
+        </form>
+      </li>
     </ul>
-    <a href="/dashboard-user.home" class="text-decoration-none">
+    <a href="/" class="text-decoration-none">
       <p class="text-center navbar-brand">Shinakamana</p>
     </a>
   </footer>

@@ -1,8 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Admin\DashboardAdminController;
+use App\Http\Controllers\Admin\AnimeController;
+use App\Http\Controllers\User\DashboardUserController;
+use App\Models\Anime;
+
+// use App\Http\Controllers\User\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,25 +22,41 @@ use App\Http\Controllers\RegisterController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+        'animes' => Anime::all()
+    ]);
 });
 
-Route::get('/register', [RegisterController::class, 'index']);
-Route::post('/register', [RegisterController::class, 'register']);
-
-Route::get('/dashboard', function(){
-    return view('dashboard.index');
-})->middleware('auth');
-
-Route::get('/home', function(){
-    return view('home');
-})->middleware('auth');
-
+// authentication
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
+Route::post('/register', [RegisterController::class, 'register']);
 
 
+// Route Admin
+Route::prefix('/dashboard-admin')->middleware('auth')->group(function () {
+    // Dashboard Admin
+    Route::get('/', [DashboardAdminController::class, 'index'])->name('dashboard-admin');
+    Route::post('/update', [DashboardAdminController::class, 'update']);
+    Route::post('/create', [AnimeController::class, 'store']);
+});
+
+// Route User
+Route::prefix('/dashboard-user')->middleware('auth')->group(function () {
+    // Dashboard User
+    Route::get('/', [DashboardUserController::class, 'index'])->name('dashboard-user');
+    Route::post('/update', [DashboardUserController::class, 'update']);
+});
+
+Route::get('/dashboard-admin.home', function(){
+    return view('dashboard-admin.home.index');
+})->middleware('auth');
+
+Route::get('/dashboard-user.home', function(){
+    return view('dashboard-user.home.index');
+})->middleware('auth');
 
 Route::get('/animeongoing', function () {
     return view('animeongoing.index');
@@ -53,7 +75,9 @@ Route::get('/about', function () {
 });
 
 Route::get('/detail', function () {
-    return view('detail');
+    return view('detail', [
+        'animes' => Anime::all()
+    ]);
 });
 
 
@@ -66,3 +90,6 @@ Route::get('/jadwal', function () {
     return view('jadwal');
 });
 
+Route::get('/genre', function () {
+    return view('genre');
+});

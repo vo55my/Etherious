@@ -15,7 +15,6 @@
       @csrf
       <h2 class="mb-3 display-4">Shinakamana</h2>
       <h3 class="h3 mb-3 fw-normal text-center">Registration Form</h3>
-
       <div class="form-floating">
         <input type="text" name="username" class="form-control border-0 @error('username')is-invalid @enderror" id="username" placeholder="Username" required value="{{ old('username') }}">
         <label for="username">Username</label>
@@ -26,7 +25,7 @@
         @enderror
       </div>
       <div class="form-floating">
-        <input type="email" name="email" class="form-control border-0 @error('email')is-invalid @enderror" id="email" placeholder="name@example.com" required value="{{ old('email') }}">
+        <input type="email" name="email" id="email" class="form-control border-0 @error('email')is-invalid @enderror" placeholder="name@example.com" required value="{{ old('email') }}">
         <label for="email">Email address</label>
         @error('email')
           <div class="invalid-feedback">

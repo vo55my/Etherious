@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid mx-4">
-    <a class="navbar-brand" href="#">Shinakamana</a>
+    <a class="navbar-brand" href="/">Shinakamana</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,9 +11,11 @@
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+            {{-- @auth --}}
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="/dashboard">Dashboard</a>
+            <a class="nav-link active" id="item" href="/dashboard-user">Dashboard</a>
           </li>
+          {{-- @else --}}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
               Top Anime
@@ -31,17 +33,19 @@
             <a class="nav-link active" id="item" href="/jadwal">Jadwal Anime</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Genre Anime</a>
+            <a class="nav-link active" id="item" href="/genre">Genre Anime</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" id="item" href="/about">About Us</a>
           </li>
+
           <li class="nav-item">
             <form action="/logout" method="post">
               @csrf
               <button class="nav-link active border-0" type="submit" id="item" style="background-color: #543864">Logout</button>
             </form>
           </li>
+          {{-- @endauth --}}
         </ul>
         <form class="d-flex mt-3 mt-lg-0" role="search">
           <input class="cari form-control me-2 border-0" type="search" placeholder="Search" id="search-input">
