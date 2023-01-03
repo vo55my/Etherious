@@ -31,7 +31,9 @@ Route::get('/index', function () {
     ]);
 });
 
-
+Route::get('/cover', function () {
+    return view('cover');
+});
 
 // authentication
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
@@ -97,3 +99,6 @@ Route::get('/genre', function () {
     return view('genre');
 });
 
+Route::get('/category', function () {
+    return view('category');
+});

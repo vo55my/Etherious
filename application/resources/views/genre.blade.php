@@ -5,7 +5,7 @@
         <h1 class="py-4 judul text-center">Genre Anime</h1>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 my-3">
-                <a href="" class="text-decoration-none">
+                <a href="/category" class="text-decoration-none">
                     <div class="card">
                         <div class="card-body">
                             <div class="row">

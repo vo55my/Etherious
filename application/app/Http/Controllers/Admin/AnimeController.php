@@ -36,7 +36,6 @@ class AnimeController extends Controller
             'image' => 'image|file|max:10000',
         ]);
 
-
         if ($request->file('image')) {
             $validatedData['image'] = $request->file('image')->store('animes_image');
         }
