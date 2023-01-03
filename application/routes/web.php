@@ -21,15 +21,17 @@ use App\Models\Anime;
 |
 */
 
-Route::get('/', function () {
+Route::get('/cover', function () {
+    return view('cover');
+});
+
+Route::get('/index', function () {
     return view('index', [
         'animes' => Anime::all()
     ]);
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
+
 
 // authentication
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
@@ -94,3 +96,4 @@ Route::get('/jadwal', function () {
 Route::get('/genre', function () {
     return view('genre');
 });
+

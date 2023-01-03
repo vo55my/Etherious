@@ -71,7 +71,6 @@
       <div class="row">
         @foreach ($animes as $anime)
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-<<<<<<< HEAD
             <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
               <a href="/detail" class="anime text-decoration-none">
                 <img src="{{ asset('storage/' . $anime->image) }}" class="card-img-top" alt="...">
