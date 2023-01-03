@@ -31,7 +31,7 @@
             <a class="nav-link active" id="item" href="/jadwal">Jadwal Anime</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="item" href="#">Genre Anime</a>
+            <a class="nav-link active" id="item" href="/genre">Genre Anime</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" id="item" href="/about">About Us</a>

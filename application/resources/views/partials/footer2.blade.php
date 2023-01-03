@@ -6,7 +6,7 @@
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="/musim" class="nav-link px-2" id="item">Musim Anime</a></li>
       <li class="nav-item"><a href="/jadwal" class="nav-link px-2" id="item">Jadwal Anime</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2" id="item">Genre Anime</a></li>
+      <li class="nav-item"><a href="/genre" class="nav-link px-2" id="item">Genre Anime</a></li>
       <li class="nav-item"><a href="/about" class="nav-link px-2" id="item">About Us</a></li>
       <li class="nav-item">
         <form action="/logout" method="post">

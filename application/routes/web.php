@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\DashboardUserController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,9 +25,7 @@ Route::get('/', function () {
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'register']);
 
-Route::get('/dashboard', function(){
-    return view('dashboard.index');
-})->middleware('auth');
+Route::get('/dashboard', [DashboardUserController::class, 'index']);
 
 Route::get('/home', function(){
     return view('home');
@@ -34,7 +35,7 @@ Route::get('/login', [LoginController::class, 'index'])->name('login')->middlewa
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
-
+Route::post('/dashboard/update', [DashboardUserController::class, 'store']);
 
 Route::get('/animeongoing', function () {
     return view('animeongoing.index');
@@ -66,3 +67,6 @@ Route::get('/jadwal', function () {
     return view('jadwal');
 });
 
+Route::get('/genre', function () {
+    return view('genre');
+});
