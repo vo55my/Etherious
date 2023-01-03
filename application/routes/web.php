@@ -21,7 +21,11 @@ use App\Models\Anime;
 |
 */
 
-Route::get('/', function () {
+Route::get('/cover', function () {
+    return view('cover');
+});
+
+Route::get('/index', function () {
     return view('index', [
         'animes' => Anime::all()
     ]);

@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/about/favicon.ico" type="image/x-icon">
   <title>Dashboard | Shinakamana</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
         <div class="position-sticky sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item text-center">
-              <img src="img/favicon.png" width="180rem" class="img-fluid pt-4" alt="">
+              <img src="img/about/Shinakamana.png" width="180rem" class="img-fluid pt-4" alt="">
               <h4 class="pt-2 user">Hello, {{ auth()->user()->username }}</h4>
             </li>
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 text-muted text-uppercase">
@@ -38,7 +38,7 @@
               <a class="nav-link text-decoration-none" href="#" id="menu" data-bs-toggle="modal" data-bs-target="#new">New Anime</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-decoration-none" href="#" id="menu" data-bs-toggle="modal" data-bs-target="#genre">New Genre</a>
+              <a class="nav-link text-decoration-none" href="#" id="menu" data-bs-toggle="modal" data-bs-target="#category">New Genre</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-decoration-none" href="#all-anime" id="menu">Anime</a>
@@ -196,10 +196,10 @@
                     <label for="link_lagu" class="form-label">Link Tema Lagu</label>
                     <div class="row">
                       <div class="col">
-                        <input type="text" class="form-control profil border-0" name="link_lagu" id="link_lagu" required>
+                        <input type="text" class="form-control profil border-0" name="link_lagu" id="link_lagu" placeholder="Opening" required>
                       </div>
                       <div class="col">
-                        <input type="text" class="form-control profil border-0" name="link_lagu_2" id="link_lagu_2" required>
+                        <input type="text" class="form-control profil border-0" name="link_lagu_2" id="link_lagu_2" placeholder="Ending" required>
                       </div>
                     </div>
                   </div>
@@ -207,30 +207,30 @@
                     <label for="link-nonton" class="form-label">Link Nonton</label>
                     <div class="row">
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_1" id="link_nonton_1" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_1" id="link_nonton_1" placeholder="Bstation" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_2" id="link_nonton_2" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_2" id="link_nonton_2" placeholder="Catchplay+" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_3" id="link_nonton_3" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_3" id="link_nonton_3" placeholder="Cruncyroll" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_4" id="link_nonton_4" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_4" id="link_nonton_4" placeholder="Hotstar" required>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_5" id="link_nonton_5" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_5" id="link_nonton_5" placeholder="Iflix" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_6" id="link_nonton_6" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_6" id="link_nonton_6" placeholder="Iqiyi" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_7" id="link_nonton_7" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_7" id="link_nonton_7" placeholder="Netflix" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" name="link_nonton_8" id="link_nonton_8" required>
+                        <input type="text" class="form-control profil border-0" name="link_nonton_8" id="link_nonton_8" placeholder="Prime Video" required>
                       </div>
                     </div>
                   </div>
@@ -244,18 +244,13 @@
                   </div>
                 </form>
               </div>
-              <div class="modal-footer border-0">
-                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Hapus Anime</button>
-                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn" id="simpan">Save changes</button>
-              </div>
             </div>
           </div>
         </div>
         <!-- New Anime End -->
 
         <!-- Genre -->
-        <div class="modal fade" id="genre" tabindex="-1">
+        <div class="modal fade" id="category" tabindex="-1">
           <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header border-0">
@@ -268,11 +263,11 @@
                     <label for="exampleFormControlInput1" class="form-label">Genre</label>
                     <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
                   </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn" id="simpan">Save changes</button>
+                  </div>
                 </form>
-              </div>
-              <div class="modal-footer border-0">
-                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn" id="simpan">Save changes</button>
               </div>
             </div>
           </div>
@@ -284,7 +279,7 @@
           <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header border-0">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">New Anime</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Anime</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -376,42 +371,43 @@
                     <label for="exampleFormControlInput1" class="form-label">Link Nonton</label>
                     <div class="row">
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_1" id="link_nonton_1" placeholder="Bstation" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_2" id="link_nonton_2" placeholder="Catchplay+" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_3" id="link_nonton_3" placeholder="Cruncyroll" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_4" id="link_nonton_4" placeholder="Hotstar" required>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_5" id="link_nonton_5" placeholder="Iflix" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_6" id="link_nonton_6" placeholder="Iqiyi" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_7" id="link_nonton_7" placeholder="Netflix" required>
                       </div>
                       <div class="col-6 mb-3">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" name="link_nonton_8" id="link_nonton_8" placeholder="Prime Video" required>
                       </div>
                     </div>
                   </div>
                   <div class="mb-3">
                     <label for="formFile" class="form-label">Poster Anime</label>
                     <input class="form-control profil border-0" type="file" id="formFile">
-                  </div>                  
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Delete Anime</button>
+                    <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn" id="simpan">Save changes</button>
+                  </div>
                 </form>
-              </div>
-              <div class="modal-footer border-0">
-                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn" id="simpan">Save changes</button>
               </div>
             </div>
           </div>
@@ -437,7 +433,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -446,7 +442,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -499,7 +495,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -508,7 +504,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -530,7 +526,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -539,7 +535,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -561,7 +557,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -570,7 +566,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -592,7 +588,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -601,7 +597,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -623,7 +619,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -632,7 +628,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -654,7 +650,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -663,7 +659,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -685,7 +681,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -694,7 +690,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -716,7 +712,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -725,7 +721,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -747,7 +743,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -756,7 +752,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -778,7 +774,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -787,7 +783,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -809,7 +805,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -818,7 +814,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -840,7 +836,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -849,7 +845,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -871,7 +867,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -880,7 +876,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -902,7 +898,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -911,7 +907,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -933,7 +929,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -942,7 +938,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -964,7 +960,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -973,7 +969,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -995,7 +991,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1004,7 +1000,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1026,7 +1022,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1035,7 +1031,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1057,7 +1053,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1066,7 +1062,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1088,7 +1084,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1097,7 +1093,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1119,7 +1115,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1128,7 +1124,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1150,7 +1146,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1159,7 +1155,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1181,7 +1177,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1190,7 +1186,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1212,7 +1208,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1221,7 +1217,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -1285,7 +1281,7 @@
             <div class="row ">
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
-                  <a href="/detail" class="anime text-decoration-none">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
                   <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
@@ -1302,7 +1298,7 @@
               </div>
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
-                  <a href="/detail" class="anime text-decoration-none">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
                   <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
@@ -1319,7 +1315,7 @@
               </div>
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
-                  <a href="/detail" class="anime text-decoration-none">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
                   <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
@@ -1336,7 +1332,7 @@
               </div>
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
-                  <a href="/detail" class="anime text-decoration-none">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
                   <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
@@ -1353,7 +1349,7 @@
               </div>
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
-                  <a href="/detail" class="anime text-decoration-none">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
                   <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
@@ -1370,7 +1366,7 @@
               </div>
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
-                  <a href="/detail" class="anime text-decoration-none">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
                   <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
@@ -1401,7 +1397,7 @@
                     <img src="img/trending/trend-1.jpg" width="500rem" height="600rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-10 col-md-6 col-sm-12 pt-3">
-                    <a href="/detail" class="card-title text-decoration-none h5" id="review">Judul Anime</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="card-title text-decoration-none h5" id="review">Judul Anime</a>
                     <p>
                       <i class="bi bi-star-fill"></i>
                       <i class="bi bi-star-fill"></i>
