@@ -27,8 +27,8 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/cover', function () {
+    return view('cover');
 });
 
 // authentication
@@ -93,4 +93,8 @@ Route::get('/jadwal', function () {
 
 Route::get('/genre', function () {
     return view('genre');
+});
+
+Route::get('/category', function () {
+    return view('category');
 });
