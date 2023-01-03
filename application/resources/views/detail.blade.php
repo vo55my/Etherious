@@ -200,6 +200,10 @@
               <p><a href="" class="text-decoration-none isi-link">"Shikisai (色彩)" by yama</a></p>
             </div>
           </div>
+        <p class="fs-5 mt-4 judul">Review</p>
+        <form action="">
+          <textarea type="text" class="form-control profil border-0" id="exampleFormControlInput1"></textarea>
+        </form>
       </div>
     </div>
   </div>
