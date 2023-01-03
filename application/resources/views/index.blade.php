@@ -11,10 +11,10 @@
       <div class="container-fluid mt-4 mb-4">
         <div class="carousel-inner">
         <div class="carousel-item active text-center">
-          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/spy_x_family_thumbnail.jpeg" id="slide" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
-              <p class="genre">Genre Anime</p>
+              <p>Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the first slide of the carousel.</p>
               <p>
@@ -24,10 +24,10 @@
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/aot_thumbnail.jpeg" id="slide" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
-              <p class="genre">Genre Anime</p>
+              <p>Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the second slide of the carousel.</p>
               <p>
@@ -37,10 +37,10 @@
           </div>
         </div>
         <div class="carousel-item text-center">
-          <img src="/img/hero/hero-1.jpg" class="rounded" alt="">
+          <img src="/img/hero/blue_lock_thumbnail.jpeg" id="slide" width="1200rem" height="610rem" class="rounded" alt="">
           <div class="container">
             <div class="carousel-caption text-start">
-              <p class="genre">Genre Anime</p>
+              <p>Genre Anime</p>
               <h1>Judul Anime</h1>
               <p class="text-truncate">Some representative placeholder content for the third slide of this carousel.</p>
               <p>
@@ -64,7 +64,7 @@
     {{-- Hero End --}}
 
     {{-- Musim Anime --}}
-    <div class="container">
+    <div class="container my-3">
       <a href="/musim" class="text-decoration-none" id="item">
         <h3 class="mb-2">Anime Fall 2022<i class="bi bi-chevron-right"></i></h3>
       </a>
@@ -72,7 +72,7 @@
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
             <a href="/detail" class="anime text-decoration-none">
-              <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+              <img src="img/anime/boku_no_hero.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
             </a>
@@ -89,7 +89,7 @@
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
             <a href="/detail" class="anime text-decoration-none">
-              <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+              <img src="img/anime/tokyo_revengers.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
             </a>
@@ -106,7 +106,7 @@
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
             <a href="/detail" class="anime text-decoration-none">
-              <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+              <img src="img/anime/aot.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
             </a>
@@ -123,7 +123,7 @@
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
             <a href="/detail" class="anime text-decoration-none">
-              <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+              <img src="img/anime/bleach.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
             </a>
@@ -140,7 +140,7 @@
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
             <a href="/detail" class="anime text-decoration-none">
-              <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+              <img src="img/anime/blue_lock.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
             </a>
@@ -157,7 +157,7 @@
         <div class="col-lg-2 col-md-4 col-sm-6 my-2">
           <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
             <a href="/detail" class="anime text-decoration-none">
-              <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+              <img src="img/anime/naruto_shippuden.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Judul Anime</h5>
             </a>
@@ -184,7 +184,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/boku_no_hero.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -201,7 +201,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/tokyo_revengers.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -218,7 +218,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/aot.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -235,7 +235,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/bleach.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -252,7 +252,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/blue_lock.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -269,7 +269,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/naruto_shippuden.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -288,7 +288,7 @@
   {{-- Anime Sedang Tayang End --}}
 
   {{-- Anime Terpopuler --}}
-  <div class="container">
+  <div class="container my-3">
     <a href="/animeterpopuler" class="text-decoration-none" id="item">
       <h3 class="mb-2">Anime Terpopuler<i class="bi bi-chevron-right"></i></h3>
     </a>
@@ -296,7 +296,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/boku_no_hero.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -313,7 +313,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/tokyo_revengers.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -330,7 +330,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/aot.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -347,7 +347,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/bleach.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -364,7 +364,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/blue_lock.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>
@@ -381,7 +381,7 @@
       <div class="col-lg-2 col-md-4 col-sm-6 my-2">
         <div class="card text-center w-100 shadow-lg border-0" style="width: 18rem;">
           <a href="/detail" class="anime text-decoration-none">
-            <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+            <img src="img/anime/naruto_shippuden.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Judul Anime</h5>
           </a>

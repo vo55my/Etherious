@@ -9,7 +9,7 @@
           <div class="card-body">
             <div class="row align-items-center d-flex justify-content-center">
               <div class="col-lg-3 col-md-6 col-sm-12 text-center pb-2">
-                <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                <img src="img/anime/aot.webp" width="400rem" class="rounded img-fluid" alt="">
               </div>
               <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                 <p class="fs-5">
@@ -37,7 +37,7 @@
           <div class="card-body">
             <div class="row align-items-center d-flex justify-content-center">
               <div class="col-lg-3 col-md-6 col-sm-12 text-center pb-2">
-                <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                <img src="img/anime/spy_x_family.webp" width="400rem" class="rounded img-fluid" alt="">
               </div>
               <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                 <p class="fs-5">
@@ -61,5 +61,13 @@
         </div>
       </div>
     </div>
+    <nav class="mt-5">
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link border-0" href="#" id="page"><i class="bi bi-caret-left-fill"></i></a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">1</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page">2</a></li>
+        <li class="page-item"><a class="page-link border-0" href="#" id="page"><i class="bi bi-caret-right-fill"></i></a></li>
+      </ul>
+    </nav>
   </div>
 @endsection

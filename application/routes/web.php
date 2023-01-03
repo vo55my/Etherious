@@ -19,6 +19,10 @@ use App\Http\Controllers\DashboardUserController;
 */
 
 Route::get('/', function () {
+    return view('cover');
+});
+
+Route::get('/index', function () {
     return view('index');
 });
 
@@ -27,7 +31,11 @@ Route::post('/register', [RegisterController::class, 'register']);
 
 Route::get('/dashboard', [DashboardUserController::class, 'index']);
 
-Route::get('/home', function(){
+Route::get('/dashboard', function () {
+    return view('dashboard.index');
+})->middleware('auth');
+
+Route::get('/home', function () {
     return view('home');
 })->middleware('auth');
 
@@ -57,11 +65,9 @@ Route::get('/detail', function () {
     return view('detail');
 });
 
-
 Route::get('/musim', function () {
     return view('musim');
 });
-
 
 Route::get('/jadwal', function () {
     return view('jadwal');
