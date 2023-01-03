@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="navbar flex-md-nowrap" id="head">
-    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="#">Shinakamana</a>
+    <a class="navbar-brand fs-2 text-center text-decoration-none" id="title" href="/home">Shinakamana</a>
     <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,8 +24,8 @@
         <div class="position-sticky sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item text-center">
-              <img src="img/about/Shinakamana.png" width="180rem" class="img-fluid pt-4" alt="">
-              <h4 class="pt-2 user">Hello, Hilmy</h4>
+              <img src="img/Shinakamana.png" width="180rem" class="img-fluid pt-4" alt="">
+              <h4 class="pt-2 user">Hello, {{ auth()->user()->username }}</h4>
             </li>
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 text-muted text-uppercase">
             <span class="activity">Your Activity</span>
@@ -68,28 +68,39 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form action="">
+                <form action="/dashboard/update" method="post" enctype="multipart/form-data">
+                  @csrf
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Username</label>
-                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" name="username" class="form-control profil border-0 @error('username')is-invalid @enderror" id="username" placeholder="Username" required value="{{ old('$user->username', $user->username) }}">
+                    @error('username')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                    @enderror
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control profil border-0 @error('email')is-invalid @enderror" id="email" placeholder="name@example.com" required value="{{ old('$user->email', $user->email) }}">
+                    @error('email')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                    @enderror
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Password</label>
-                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control profil border-0 @error('password')is-invalid @enderror" id="password" placaholder="Password" required>
                   </div>
                   <div class="mb-3">
-                    <label for="formFile" class="form-label">Foto Profil</label>
-                    <input class="form-control profil border-0" type="file" id="formFile">
+                    <label for="image" class="form-label">Foto Profil</label>
+                    <input class="form-control profil border-0" name="oldImage" type="file" id="formFile" value="{{ $user->image }}">
                   </div>                  
+                  <div class="modal-footer border-0">
+                    <button type="submit" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn" id="simpan">Save changes</button>
+                  </div>
                 </form>
-              </div>
-              <div class="modal-footer border-0">
-                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn" id="simpan">Save changes</button>
               </div>
             </div>
           </div>
