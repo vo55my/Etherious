@@ -8,11 +8,11 @@
       <div class="accordion" id="accordionExample">
         <div class="accordion-item border-0">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
               Senin
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <div class="row">
                 <div class="col-6">
@@ -20,7 +20,7 @@
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
                         <div class="col-lg-3 col-md-6 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                          <img src="img/anime/aot.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -41,7 +41,7 @@
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
                         <div class="col-lg-3 col-md-6 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                          <img src="img/anime/bleach.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -74,8 +74,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/blue_lock.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -95,8 +95,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/boku_no_hero.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -129,8 +129,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/naruto_shippuden.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -150,8 +150,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/one_piece.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -184,8 +184,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/spy_x_family.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -205,8 +205,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/tokyo_revengers.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -239,8 +239,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/aot.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -260,8 +260,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/bleach.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -294,8 +294,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/blue_lock.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -315,8 +315,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/boku_no_hero.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -349,8 +349,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/naruto_shippuden.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">
@@ -370,8 +370,8 @@
                   <div class="card border-0">
                     <div class="card-body">
                       <div class="row align-items-center d-flex justify-content-center">
-                        <div class="col-lg-2 col-md-3 col-sm-12 text-center">
-                          <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                        <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                          <img src="img/anime/one_piece.webp" width="400rem" class="rounded img-fluid" alt="">
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                           <p class="pt-2 fs-5">

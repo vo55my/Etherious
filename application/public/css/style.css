@@ -45,6 +45,7 @@ body,
 .judul,
 .modal-title,
 .profil,
+#logo,
 #item,
 #merah {
   color: #FF6363;
@@ -53,12 +54,11 @@ body,
 .isi,
 .isi-link,
 .dropdown-item:hover,
-.carousel-caption,
-.genre,
 .dropdown-toggle:hover,
 .navbar-brand:hover,
 .accordion-button:hover,
 .scroll-up:hover,
+.carousel-caption,
 .form-label,
 #item:hover,
 #deskripsi,
@@ -140,4 +140,28 @@ body,
 
 #batal {
   background-color: #FF6363;
+}
+
+#logo {
+  font-family: 'tsuki';
+}
+
+.quote::after {
+  content: '"';
+}
+
+.quote::before {
+  content: '"';
+}
+
+.lead::before {
+  content: "- ";
+}
+
+.lead::after {
+  content: " -";
+}
+
+#slide {
+  filter: brightness(50%);
 }

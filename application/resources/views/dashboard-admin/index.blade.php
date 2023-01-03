@@ -244,6 +244,11 @@
                   </div>
                 </form>
               </div>
+              <div class="modal-footer border-0">
+                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Hapus Anime</button>
+                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn" id="simpan">Save changes</button>
+              </div>
             </div>
           </div>
         </div>
@@ -274,6 +279,145 @@
         </div>
         <!-- Genre End -->
 
+        <!-- Edit Anime -->
+        <div class="modal fade" id="edit" tabindex="-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">New Anime</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Judul Anime</label>
+                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Status</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Tanggal Tayang</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Studio</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Musim</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Genre</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Jumlah Tayangan</label>
+                        <input type="email" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Tipe Anime</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Rating Anime</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Total Episode</label>
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Sinopsis</label>
+                    <textarea type="text" class="form-control profil border-0" id="exampleFormControlInput1"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Link MyAnimeList</label>
+                    <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Link Tema Lagu</label>
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <label for="exampleFormControlInput1" class="form-label">Link Nonton</label>
+                    <div class="row">
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                      <div class="col-6 mb-3">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Poster Anime</label>
+                    <input class="form-control profil border-0" type="file" id="formFile">
+                  </div>                  
+                </form>
+              </div>
+              <div class="modal-footer border-0">
+                <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn" id="simpan">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Edit Anime End -->
+
         <!-- Anime -->
         <div class="container">
           <a href="#" class="text-decoration-none" id="item">
@@ -293,7 +437,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -302,7 +446,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -324,7 +468,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
@@ -333,7 +477,7 @@
                       <ul class="anime">
                         <li>
                           <p>
-                            <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
                           </p>
                         </li>
                       </ul>
