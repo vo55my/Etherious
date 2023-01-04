@@ -21,7 +21,7 @@ use App\Models\Anime;
 |
 */
 
-Route::get('/cover', function () {
+Route::get('/', function () {
     return view('cover');
 });
 
@@ -29,10 +29,6 @@ Route::get('/index', function () {
     return view('index', [
         'animes' => Anime::all()
     ]);
-});
-
-Route::get('/cover', function () {
-    return view('cover');
 });
 
 // authentication

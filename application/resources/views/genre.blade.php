@@ -1,7 +1,7 @@
 @extends('layouts.main1')
 
 @section('container')
-    <div class="container text-light">
+    <div class="container">
         <h1 class="py-4 judul text-center">Genre Anime</h1>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 my-3">
