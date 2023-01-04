@@ -13,7 +13,7 @@
               </div>
               <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                 <p class="fs-5">
-                  <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                  <a href="/detail" class="text-decoration-none anime">Judul Anime</a>
                 </p>
                 <div class="row row-cols-12 row-cols-md-12 row-cols-sm-12 d-flex justify-content-center">
                   <div><i class="bi bi-person-fill"></i> 858rb</div>
@@ -41,7 +41,7 @@
               </div>
               <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                 <p class="fs-5">
-                  <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                  <a href="/detail" class="text-decoration-none anime">Judul Anime</a>
                 </p>
                 <div class="row row-cols-12 row-cols-md-12 row-cols-sm-12 d-flex justify-content-center">
                   <div><i class="bi bi-person-fill"></i> 858rb</div>

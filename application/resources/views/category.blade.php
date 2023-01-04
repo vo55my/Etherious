@@ -9,11 +9,11 @@
               <div class="card-body">
                 <div class="row align-items-center d-flex justify-content-center">
                   <div class="col-lg-3 col-md-6 col-sm-12 text-center pb-2">
-                    <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                    <img src="img/anime/aot.webp" width="400rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                     <p class="fs-5">
-                      <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                      <a href="/detail" class="text-decoration-none anime">Judul Anime</a>
                     </p>
                     <div class="row row-cols-12 row-cols-md-12 row-cols-sm-12 d-flex justify-content-center">
                       <div><i class="bi bi-person-fill"></i> 858rb</div>
@@ -37,11 +37,11 @@
               <div class="card-body">
                 <div class="row align-items-center d-flex justify-content-center">
                   <div class="col-lg-3 col-md-6 col-sm-12 text-center pb-2">
-                    <img src="img/trending/trend-1.jpg" width="400rem" class="rounded img-fluid" alt="">
+                    <img src="img/anime/spy_x_family.webp" width="400rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-9 col-md-6 col-sm-12 fs-6">
                     <p class="fs-5">
-                      <a href="/detail" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                      <a href="/detail" class="text-decoration-none anime">Judul Anime</a>
                     </p>
                     <div class="row row-cols-12 row-cols-md-12 row-cols-sm-12 d-flex justify-content-center">
                       <div><i class="bi bi-person-fill"></i> 858rb</div>

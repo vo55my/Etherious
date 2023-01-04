@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/about/favicon.ico" type="image/x-icon">
     <title>Shinakamana</title>
 </head>
 <body>    
@@ -27,7 +27,7 @@
                         <p class="quote fs-4" x-text="quote"></p>
                         <p class="lead" x-text="character"></p>
                         <p x-text="anime"></p>
-                        <a class="btn btn-lg hero shadow-lg mt-4" href="index">Buka <i class="bi bi-chevron-right"></i></a>
+                        <a class="btn btn-lg hero shadow-lg mt-4" href="about">Buka <i class="bi bi-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
