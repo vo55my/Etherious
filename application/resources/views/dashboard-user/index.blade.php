@@ -25,7 +25,7 @@
           <ul class="nav flex-column">
             {{-- @auth --}}
             <li class="nav-item text-center">
-              <img src="img/Shinakamana.png" width="180rem" class="img-fluid pt-4" alt="">
+              <img src="img/about/Shinakamana.png" width="180rem" class="img-fluid pt-4" alt="">
               <h4 class="pt-2 user">Hello, {{ auth()->user()->username }}</h4>
             </li>
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 text-muted text-uppercase">
