@@ -25,7 +25,7 @@ Route::get('/cover', function () {
     return view('cover');
 });
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index', [
         'animes' => Anime::all()
     ]);

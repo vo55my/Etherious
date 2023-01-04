@@ -9,6 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 class Anime extends Model
 {
     use HasFactory, Notifiable;
-    public $timestamps = false;
+    // public $timestamps = false;
     protected $guarded = ['id'];
 }

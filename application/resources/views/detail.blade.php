@@ -5,7 +5,7 @@
     @foreach ($animes as $anime)
     <div class="row mx-2">
       <div class="col-lg-4 col-md-5 col-sm-12">
-        <img src="{{ asset('storage/' . $anime->image) }}" width="300rem" class="rounded mb-3" alt="">
+        <img src="{{ asset('storage/animes_image' . $anime->image) }}" width="300rem" class="rounded mb-3" alt="">
         <div class="card border-0" style="width: 20rem; height: 4rem;">
           <a href="#" class="text-decoration-none">
           <div class="card-body">
@@ -51,7 +51,7 @@
           <div class="row">
             <div class="col-lg-6 col-sm-12 d-grid gap-2 fs-5 mt-2">
               <div class="card border-0">
-                <a href="https://www.bilibili.tv/id/play/1005426" class="text-decoration-none">
+                <a href="{{ $anime->link_nonton_1 }}" class="text-decoration-none">
                 <div class="card-body">
                   <div class="row info align-items-center">
                     <div class="col-2">
