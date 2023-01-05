@@ -62,42 +62,7 @@
       </nav>
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <!-- Modals -->
-        <div class="modal fade" id="exampleModal" tabindex="-1">
-          <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header border-0">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Profil</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form action="/dashboard-user/update" method="post" enctype="multipart/form-data">
-                    @csrf
-                  <div class="mb-3">
-                    <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control profil border-0" id="username" name="username">
-                  </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control profil border-0" id="email" name="email">
-                  </div>
-                  <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" name="password" id="password" class="form-control profil border-0">
-                  </div>
-                  <div class="mb-3">
-                    <label for="image" class="form-label">Foto Profil</label>
-                    <input class="form-control profil border-0" type="file" id="image" name="image">
-                  </div>
-                  <div class="modal-footer border-0">
-                    <button type="submit" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn" id="simpan">Save changes</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         <!-- {{-- Anime List --}} -->
           <div class="container">
@@ -237,6 +202,38 @@
       </main>
     </div>
   </div>
+
+
+          <!-- Modals -->
+          <div class="modal fade" id="exampleModal" tabindex="-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Profil</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="/dashboard-user/update/{{$user->id}}" method="post" enctype="multipart/form-data">
+                    @method('put')
+                    @csrf
+                  <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" name="username" class="form-control profil border-0 @error('username')is-invalid @enderror" id="username" placeholder="Username" required value="{{ old('$user->username', $user->username) }}">
+                    @error('username')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                    @enderror
+
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn" id="batal" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn" id="simpan">Save changes</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
 
   <script src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>

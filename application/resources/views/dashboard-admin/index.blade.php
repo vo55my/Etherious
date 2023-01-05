@@ -134,7 +134,7 @@
                     <div class="col">
                       <div class="mb-3">
                         <label for="tanggal_tayang"  class="form-label">Tanggal Tayang</label>
-                        <input type="date" class="form-control profil border-0" name="tanggal_tayang" id="tanggal_tayang" required>
+                        <input type="text" class="form-control profil border-0" name="tanggal_tayang" id="tanggal_tayang" required>
                       </div>
                     </div>
                   </div>
