@@ -360,10 +360,10 @@
                     <label for="exampleFormControlInput1" class="form-label">Link Tema Lagu</label>
                     <div class="row">
                       <div class="col-lg-6 col-sm-12">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1" placeholder="Opening">
                       </div>
                       <div class="col-lg-6 col-sm-12">
-                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1">
+                        <input type="text" class="form-control profil border-0" id="exampleFormControlInput1" placeholder="Ending">
                       </div>
                     </div>
                   </div>
@@ -430,19 +430,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -461,19 +461,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -492,19 +492,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -523,19 +523,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -554,19 +554,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -585,19 +585,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -616,19 +616,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -647,19 +647,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -678,19 +678,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -709,19 +709,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -740,19 +740,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -771,19 +771,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -802,19 +802,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -833,19 +833,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -864,19 +864,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -895,19 +895,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -926,19 +926,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -957,19 +957,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -988,19 +988,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1019,19 +1019,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1050,19 +1050,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1081,19 +1081,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1112,19 +1112,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1143,19 +1143,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1174,19 +1174,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1205,19 +1205,19 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div class="col-6">
-                      <ul class="anime">
+                      <ul id="item">
                         <li>
                           <p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none anime">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos.</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="text-decoration-none" id="item">Judul Anime</a>
                           </p>
                         </li>
                       </ul>
@@ -1282,7 +1282,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
                   <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
-                  <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+                  <img src="img/anime/aot.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
                   </a>
@@ -1299,7 +1299,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
                   <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
-                  <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+                  <img src="img/anime/blue_lock.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
                   </a>
@@ -1316,7 +1316,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
                   <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
-                  <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+                  <img src="img/anime/one_piece.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
                   </a>
@@ -1333,7 +1333,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
                   <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
-                  <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+                  <img src="img/anime/naruto_shippuden.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
                   </a>
@@ -1350,7 +1350,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
                   <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
-                  <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+                  <img src="img/anime/spy_x_family.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
                   </a>
@@ -1367,7 +1367,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 my-2">
                 <div class="card text-center w-100 shadow-lg border-0" width="18rem">
                   <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="anime text-decoration-none">
-                  <img src="img/sidebar/comment-4.jpg" class="card-img-top" alt="...">
+                  <img src="img/anime/bleach.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Judul Anime</h5>
                   </a>
@@ -1394,18 +1394,11 @@
               <div class="card-body">
                 <div class="row align-items-center d-flex">
                   <div class="col-lg-2 col-md-6 col-sm-12 text-center">
-                    <img src="img/trending/trend-1.jpg" width="500rem" height="600rem" class="rounded img-fluid" alt="">
+                    <img src="img/anime/spy_x_family.webp" width="500rem" height="600rem" class="rounded img-fluid" alt="">
                   </div>
                   <div class="col-lg-10 col-md-6 col-sm-12 pt-3">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#edit" class="card-title text-decoration-none h5" id="review">Judul Anime</a>
-                    <p>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </p>
-                    <blockquote class="blockquote fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, nesciunt quod modi voluptatem cum voluptates architecto. Vitae officiis officia laboriosam necessitatibus nemo aut assumenda quis voluptates iure, cumque doloremque quidem eaque sunt deserunt porro atque alias et enim ut voluptatibus eligendi ab. Dolore ab placeat rerum fuga, architecto harum inventore?</blockquote>
+                    <blockquote class="blockquote fs-6 mt-4">"Seperti kebanyakan orang yang mencoba Bagian 1, saya dengan cepat jatuh cinta dengan “Spy x Family” dan para Pemalsu. Meskipun penulisnya, Tatsuya Endo, mengatakan dia hanya mencoba menarik pasar massal, saya benar-benar percaya bahwa "Spy x Family" memiliki cerita dan karakter yang bisa menjadi satu-satunya. Namun, secara komparatif, menurut saya Bagian 2 mengecewakan ketika melihat kembali Bagian 1. Ada beberapa modifikasi yang dibuat cerita yang mengurangi daya tarik asli Spy. Untuk ulasan ini, saya akan melihat perubahan di tiga bidang utama yang menurut saya mengurangi kualitas "Spy x Family" ..."</blockquote>
                   </div>
                 </div>
               </div>

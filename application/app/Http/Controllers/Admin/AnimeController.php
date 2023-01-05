@@ -36,14 +36,14 @@ class AnimeController extends Controller
             'image' => 'image|file|max:10000',
         ]);
 
-        if ($request->file('image')) {
+        if ($request->file('image'))
             $validatedData['image'] = $request->file('image')->store('animes_image');
         }
 
     // dd($validatedData);
-        Anime::create($validatedData);
+    Anime::create($validatedData);
+    return redirect('/dashboard-admin')->with('success', 'Anime telah ditambahkan');w
         // dd('sukses');
 
-        return redirect('/dashboard-admin')->with('success', 'Anime telah ditambahkan');
     }
 }
