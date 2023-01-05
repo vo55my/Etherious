@@ -1,12 +1,12 @@
 <?php
 
+use App\Models\Anime;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Auth\RegisterController;
-use App\Http\Controllers\Admin\DashboardAdminController;
 use App\Http\Controllers\Admin\AnimeController;
-use App\Http\Controllers\User\DashboardUserController;
-use App\Models\Anime;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\DashboardUserController;
+use App\Http\Controllers\Admin\DashboardAdminController;
 
 // use App\Http\Controllers\User\HomeController;
 
@@ -23,6 +23,10 @@ use App\Models\Anime;
 
 Route::get('/', function () {
     return view('cover');
+});
+
+Route::get('/index', function () {
+    return view('index');
 });
 
 Route::get('/', function () {
@@ -50,7 +54,8 @@ Route::prefix('/dashboard-admin')->middleware('auth')->group(function () {
 Route::prefix('/dashboard-user')->middleware('auth')->group(function () {
     // Dashboard User
     Route::get('/', [DashboardUserController::class, 'index'])->name('dashboard-user');
-    Route::post('/update', [DashboardUserController::class, 'update']);
+    Route::put('/update/{id}', [DashboardUserController::class, 'update']);
+    Route::get('{id}/edit', [DashboardUserController::class, 'edit']);
 });
 
 Route::get('/dashboard-admin.home', function () {
