@@ -36,6 +36,9 @@ class DashboardUserController extends Controller
     {
         $rules = [
             'username' => 'required',
+            'email' => 'required|email:dns',
+            'password' => 'required',
+            // 'image' => 'image|file|max:2000'
         ];
         $validateData = $request->validate($rules);
 
@@ -46,21 +49,21 @@ class DashboardUserController extends Controller
         //     $validateData['image'] = $request->file('image')->store('table-images');
         // }
 
-        $validateData['password'] = auth()->user()->id;
-        $validateData['image'] = auth()->user()->id;
-        $validateData['email'] = auth()->user()->id;
+        // $validateData['password'] = auth()->user()->id;
+        // $validateData['image'] = auth()->user()->id;
+        // $validateData['email'] = auth()->user()->id;
 
 
-         User::where('id', $user->id)
+        User::where('id', $user->id)
             ->update($validateData);
 
-            dd('sukses');
+        dd('sukses');
 
         // return redirect('/dashboard/update/')->with('success', 'Post has been updated!');
     }
 
     public function store(Request $request)
     {
-        return $request->file('image')->store('user-images');   
+        return $request->file('image')->store('user-images');
     }
 }
